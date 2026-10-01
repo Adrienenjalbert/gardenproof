@@ -1,0 +1,5000 @@
+{
+  "provider": "mock",
+  "ranAt": "2026-09-30T07:51:15.187Z",
+  "cases": [
+    {
+      "id": "patio-putney-full-consent",
+      "scenario": "5-star testimonial, all consents given",
+      "generated": true,
+      "criteria": [
+        {
+          "id": "consent",
+          "ok": true,
+          "detail": "all consent rules respected"
+        },
+        {
+          "id": "specificity:portfolio_page",
+          "ok": true,
+          "detail": "7 brief terms (Indian sandstone, granite setts, reclaimed brick, retaining wall, steps, lavender, box balls)"
+        },
+        {
+          "id": "sourced:portfolio_page",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:ad_copy",
+          "ok": true,
+          "detail": "5 brief terms (Indian sandstone, granite setts, reclaimed brick, retaining wall, steps)"
+        },
+        {
+          "id": "sourced:ad_copy",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:social_pack",
+          "ok": true,
+          "detail": "7 brief terms (Indian sandstone, granite setts, reclaimed brick, retaining wall, steps, lavender, box balls)"
+        },
+        {
+          "id": "sourced:social_pack",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:gbp_post",
+          "ok": true,
+          "detail": "5 brief terms (Indian sandstone, granite setts, reclaimed brick, retaining wall, steps)"
+        },
+        {
+          "id": "sourced:gbp_post",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "locality:portfolio_page",
+          "ok": true,
+          "detail": "mentions \"Putney\""
+        },
+        {
+          "id": "locality:ad_copy",
+          "ok": true,
+          "detail": "mentions \"Putney\""
+        },
+        {
+          "id": "locality:gbp_post",
+          "ok": true,
+          "detail": "mentions \"Putney\""
+        },
+        {
+          "id": "banned:portfolio_page",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:portfolio_page",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:portfolio_page",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:portfolio_page",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:ad_copy",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:ad_copy",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:ad_copy",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:ad_copy",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:social_pack",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:social_pack",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:social_pack",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:social_pack",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:gbp_post",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:gbp_post",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:gbp_post",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:gbp_post",
+          "ok": true,
+          "detail": "clean"
+        }
+      ],
+      "score": 1,
+      "consentCompliant": true,
+      "premium": null,
+      "assets": {
+        "portfolio_page": {
+          "content": {
+            "slug": "indian-sandstone-patio-putney-2026",
+            "seoTitle": "Indian sandstone patio, Putney | Thorburn Landscapes",
+            "metaDescription": "An Indian sandstone patio with a low curved retaining wall and steps in Putney. Two weeks from start to finish. A Thorburn Landscapes project.",
+            "h1": "Indian sandstone patio and low curved retaining wall in Putney",
+            "summary": "An Indian sandstone patio with a low curved retaining wall and steps, built by Thorburn Landscapes for a Putney garden. The planting includes box balls and lavender. It replaced the old concrete slabs and cracked crazy paving.",
+            "sections": {
+              "brief": "The job covered laying a new Indian sandstone patio with a double row of granite setts as a border, building a low curved retaining wall in reclaimed brick, putting in two steps down to the lawn and planting up the new bed with lavender and box balls.",
+              "challenge": "The starting point: the old concrete slabs and cracked crazy paving.",
+              "solution": "The layout is built around an Indian sandstone patio with a low curved retaining wall and steps. Materials: Indian sandstone, granite setts and reclaimed brick.",
+              "result": "The finished garden has an Indian sandstone patio, a low curved retaining wall and steps. Two weeks from start to finish. The homeowner rated the work 5 out of 5."
+            },
+            "facts": {
+              "service": "Patios & paving",
+              "area": "Putney",
+              "materials": [
+                "Indian sandstone",
+                "granite setts",
+                "reclaimed brick"
+              ],
+              "features": [
+                "Indian sandstone patio",
+                "low curved retaining wall",
+                "steps"
+              ],
+              "duration": "Two weeks"
+            },
+            "testimonial": {
+              "quote": "The team were careful with everything and the patio is beautifully finished. It feels like a new room.",
+              "rating": 5,
+              "attribution": "Sophie, Putney"
+            },
+            "gallery": [
+              {
+                "mediaId": "m1_after1",
+                "stage": "after",
+                "alt": "Finished Indian sandstone patio with a low curved retaining wall in Putney",
+                "caption": "Finished"
+              },
+              {
+                "mediaId": "m1_after2",
+                "stage": "after",
+                "alt": "Another view of the finished Indian sandstone patio in Putney",
+                "caption": "Finished"
+              },
+              {
+                "mediaId": "m1_before",
+                "stage": "before",
+                "alt": "The garden in Putney before work began",
+                "caption": "Before"
+              }
+            ],
+            "beforeAfter": {
+              "beforeMediaId": "m1_before",
+              "afterMediaId": "m1_after1"
+            },
+            "faqs": [
+              {
+                "q": "How long did this patio project take?",
+                "a": "Two weeks from start to finish."
+              },
+              {
+                "q": "Which materials were used?",
+                "a": "Indian sandstone, granite setts and reclaimed brick."
+              },
+              {
+                "q": "Do you work in Putney?",
+                "a": "Yes. This garden is in Putney, and Thorburn Landscapes works across South West London, including Clapham, Battersea and Balham."
+              }
+            ],
+            "cta": {
+              "text": "Book a design consultation",
+              "url": "https://www.thorburnlandscapes.co.uk/contact/"
+            },
+            "internalLinks": [
+              {
+                "text": "More finished gardens",
+                "url": "https://www.thorburnlandscapes.co.uk/projects/"
+              }
+            ]
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "slug",
+              "ok": true,
+              "message": "Slug format OK."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Title, meta and headings within limits."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "alt-text",
+              "ok": true,
+              "message": "Every image has descriptive alt text."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            },
+            {
+              "id": "consent",
+              "ok": true,
+              "message": "Testimonial matches the homeowner's consented response."
+            }
+          ]
+        },
+        "ad_copy": {
+          "content": {
+            "meta": {
+              "hooks": [
+                "Patio specialist in Putney?",
+                "Looking for a patio specialist?",
+                "Indian sandstone patio, Putney",
+                "Before and after in Putney",
+                "Finished in two weeks"
+              ],
+              "primaryTexts": [
+                "An Indian sandstone patio with a low curved retaining wall and steps. Finished in Putney.",
+                "An Indian sandstone patio with a low curved retaining wall. Finished in Putney.",
+                "“The team were careful with everything and the patio is beautifully finished. It feels like a new room.” – Sophie, Putney",
+                "Indian sandstone, granite setts and reclaimed brick. An Indian sandstone patio in Putney, two weeks start to finish.",
+                "Indian sandstone, granite setts and reclaimed brick. An Indian sandstone patio in Putney."
+              ],
+              "headlines": [
+                "Indian sandstone patio, Putney",
+                "Patios & paving in Putney",
+                "Before & after: Putney garden",
+                "Low curved retaining wall, Putney",
+                "Indian sandstone patio"
+              ]
+            },
+            "pmax": {
+              "headlines": [
+                "Patios & paving in Putney",
+                "Indian sandstone patio",
+                "Low curved retaining wall",
+                "Book a design consultation",
+                "Thorburn Landscapes",
+                "Rated 4.9 on Which?"
+              ],
+              "longHeadlines": [
+                "An Indian sandstone patio with a low curved retaining wall, built in Putney",
+                "An Indian sandstone patio in Putney",
+                "See a finished Putney garden by Thorburn Landscapes"
+              ],
+              "descriptions": [
+                "Indian sandstone patio, low curved retaining wall and steps in Putney.",
+                "Indian sandstone patio and low curved retaining wall in Putney.",
+                "Real work, real materials: Indian sandstone, granite setts and reclaimed brick.",
+                "Book a design consultation with Thorburn Landscapes."
+              ]
+            },
+            "angle": "proof"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "All ad fields within platform limits."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        },
+        "social_pack": {
+          "content": {
+            "carouselOrder": [
+              "m1_before",
+              "m1_after1",
+              "m1_after2"
+            ],
+            "captions": [
+              "Indian sandstone patio and low curved retaining wall in Putney.\n\nBefore: the old concrete slabs and cracked crazy paving.\n\nThe job covered laying a new Indian sandstone patio with a double row of granite setts as a border, building a low curved retaining wall in reclaimed brick, putting in two steps down to the lawn and planting up the new bed with lavender and box balls.\n\nTwo weeks from start to finish.\n\n“The team were careful with everything and the patio is beautifully finished. It feels like a new room.” – Sophie, Putney.\n\nBook a design consultation – link in bio.",
+              "Indian sandstone, granite setts and reclaimed brick. An Indian sandstone patio with a low curved retaining wall and steps, finished in Putney. Book a design consultation – link in bio."
+            ],
+            "hashtags": [
+              "#PutneyGardens",
+              "#IndianSandstone",
+              "#GraniteSetts",
+              "#PatioDesign",
+              "#Landscaping",
+              "#SouthWestLondon",
+              "#ThorburnLandscapes"
+            ],
+            "reelCoverText": "Putney: before & after"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Captions and hashtags OK."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        },
+        "gbp_post": {
+          "content": {
+            "text": "Recently finished in Putney: an Indian sandstone patio with a low curved retaining wall and steps.\n\nThe starting point: the old concrete slabs and cracked crazy paving.\n\nMaterials: Indian sandstone, granite setts and reclaimed brick. Two weeks from start to finish.\n\n“The team were careful with everything and the patio is beautifully finished. It feels like a new room.” – Sophie, Putney.\n\nPlanning a patio? Book a design consultation with Thorburn Landscapes.",
+            "mediaId": "m1_after1",
+            "ctaType": "BOOK",
+            "ctaUrl": "https://www.thorburnlandscapes.co.uk/contact/"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Post length OK."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pond-wimbledon-no-response",
+      "scenario": "homeowner has not responded yet (no testimonial, no consent flags)",
+      "generated": true,
+      "criteria": [
+        {
+          "id": "consent",
+          "ok": true,
+          "detail": "all consent rules respected"
+        },
+        {
+          "id": "specificity:portfolio_page",
+          "ok": true,
+          "detail": "5 brief terms (self-binding gravel, pond, solar fountain, lawn, mature trees)"
+        },
+        {
+          "id": "sourced:portfolio_page",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:ad_copy",
+          "ok": true,
+          "detail": "3 brief terms (self-binding gravel, pond, solar fountain)"
+        },
+        {
+          "id": "sourced:ad_copy",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:social_pack",
+          "ok": true,
+          "detail": "5 brief terms (self-binding gravel, pond, solar fountain, lawn, mature trees)"
+        },
+        {
+          "id": "sourced:social_pack",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:gbp_post",
+          "ok": true,
+          "detail": "4 brief terms (self-binding gravel, pond, solar fountain, lawn)"
+        },
+        {
+          "id": "sourced:gbp_post",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "locality:portfolio_page",
+          "ok": true,
+          "detail": "mentions \"South West London\""
+        },
+        {
+          "id": "locality:ad_copy",
+          "ok": true,
+          "detail": "mentions \"South West London\""
+        },
+        {
+          "id": "locality:gbp_post",
+          "ok": true,
+          "detail": "mentions \"South West London\""
+        },
+        {
+          "id": "banned:portfolio_page",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:portfolio_page",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:portfolio_page",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:portfolio_page",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:ad_copy",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:ad_copy",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:ad_copy",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:ad_copy",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:social_pack",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:social_pack",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:social_pack",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:social_pack",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:gbp_post",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:gbp_post",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:gbp_post",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:gbp_post",
+          "ok": true,
+          "detail": "clean"
+        }
+      ],
+      "score": 1,
+      "consentCompliant": true,
+      "premium": null,
+      "assets": {
+        "portfolio_page": {
+          "content": {
+            "slug": "circular-brick-edged-pond-2026",
+            "seoTitle": "Circular brick-edged pond, South West London | Thorburn",
+            "metaDescription": "A circular brick-edged pond with a self-binding gravel terrace and a solar fountain in South West London. About three weeks from start to finish.",
+            "h1": "Circular brick-edged pond and self-binding gravel terrace in South West London",
+            "summary": "A circular brick-edged pond with a self-binding gravel terrace, a solar fountain and a lawn, designed and built by Thorburn Landscapes for a garden in South West London. It replaced an overgrown back garden. About three weeks from start to finish.",
+            "sections": {
+              "brief": "The job covered clearing the whole plot, laying a self-binding gravel terrace with a circular brick-edged pond and solar fountain, a new lawn at the back, cleaning up the borders and keeping the mature trees.",
+              "challenge": "The starting point: an overgrown back garden, knee-high grass, an old pergola and junk everywhere. All of it was cleared before the new layout went in.",
+              "solution": "The layout is built around a circular brick-edged pond with a self-binding gravel terrace, a solar fountain, a lawn and borders. Materials: brick and self-binding gravel.",
+              "result": "The finished garden has a circular brick-edged pond, a self-binding gravel terrace, a solar fountain and a lawn. About three weeks from start to finish."
+            },
+            "facts": {
+              "service": "Garden design & build",
+              "area": null,
+              "materials": [
+                "brick",
+                "self-binding gravel"
+              ],
+              "features": [
+                "circular brick-edged pond",
+                "self-binding gravel terrace",
+                "solar fountain",
+                "lawn",
+                "borders",
+                "mature trees"
+              ],
+              "duration": "About three weeks"
+            },
+            "testimonial": null,
+            "gallery": [
+              {
+                "mediaId": "m2_after",
+                "stage": "after",
+                "alt": "Finished circular brick-edged pond with a self-binding gravel terrace in a South West London garden",
+                "caption": "Finished"
+              },
+              {
+                "mediaId": "m2_before",
+                "stage": "before",
+                "alt": "The garden in a South West London garden before work began",
+                "caption": "Before"
+              }
+            ],
+            "beforeAfter": {
+              "beforeMediaId": "m2_before",
+              "afterMediaId": "m2_after"
+            },
+            "faqs": [
+              {
+                "q": "How long did this garden design project take?",
+                "a": "About three weeks from start to finish."
+              },
+              {
+                "q": "Which materials were used?",
+                "a": "Brick and self-binding gravel."
+              },
+              {
+                "q": "Which areas do you cover?",
+                "a": "South West London, including Clapham, Battersea, Balham and Barnes."
+              }
+            ],
+            "cta": {
+              "text": "Book a design consultation",
+              "url": "https://www.thorburnlandscapes.co.uk/contact/"
+            },
+            "internalLinks": [
+              {
+                "text": "More finished gardens",
+                "url": "https://www.thorburnlandscapes.co.uk/projects/"
+              }
+            ]
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "consent-photos",
+              "ok": false,
+              "message": "Homeowner has not confirmed photo consent yet — do not publish until they do."
+            },
+            {
+              "id": "consent-testimonial",
+              "ok": true,
+              "message": "No testimonial response yet: copy written without quote, name or area."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "slug",
+              "ok": true,
+              "message": "Slug format OK."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Title, meta and headings within limits."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "alt-text",
+              "ok": true,
+              "message": "Every image has descriptive alt text."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            },
+            {
+              "id": "consent",
+              "ok": true,
+              "message": "No testimonial used."
+            }
+          ]
+        },
+        "ad_copy": {
+          "content": {
+            "meta": {
+              "hooks": [
+                "Looking for a garden design specialist?",
+                "Circular brick-edged pond, South West London",
+                "Finished in about three weeks",
+                "Circular brick-edged pond, finished"
+              ],
+              "primaryTexts": [
+                "A circular brick-edged pond with a self-binding gravel terrace and a solar fountain. Finished in South West London.",
+                "A circular brick-edged pond with a self-binding gravel terrace. Finished in South West London.",
+                "Brick and self-binding gravel. A circular brick-edged pond in South West London, about three weeks start to finish.",
+                "Brick and self-binding gravel. A circular brick-edged pond in South West London.",
+                "Planning a garden design in South West London? Book a design consultation."
+              ],
+              "headlines": [
+                "Before & after: South West London garden",
+                "Circular brick-edged pond",
+                "Book a design consultation",
+                "Thorburn Landscapes"
+              ]
+            },
+            "pmax": {
+              "headlines": [
+                "Circular brick-edged pond",
+                "Self-binding gravel terrace",
+                "Solar fountain",
+                "Book a design consultation",
+                "Thorburn Landscapes",
+                "Rated 4.9 on Which?"
+              ],
+              "longHeadlines": [
+                "A circular brick-edged pond with a self-binding gravel terrace, built in South West London",
+                "A circular brick-edged pond in South West London",
+                "See a finished South West London garden by Thorburn Landscapes"
+              ],
+              "descriptions": [
+                "Circular brick-edged pond and self-binding gravel terrace in South West London.",
+                "Real work, real materials: brick and self-binding gravel.",
+                "Book a design consultation with Thorburn Landscapes.",
+                "Book a design consultation."
+              ]
+            },
+            "angle": "transformation"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "consent-photos",
+              "ok": false,
+              "message": "Homeowner has not confirmed photo consent yet — do not publish until they do."
+            },
+            {
+              "id": "consent-testimonial",
+              "ok": true,
+              "message": "No testimonial response yet: copy written without quote, name or area."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "All ad fields within platform limits."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        },
+        "social_pack": {
+          "content": {
+            "carouselOrder": [
+              "m2_before",
+              "m2_after"
+            ],
+            "captions": [
+              "Circular brick-edged pond and self-binding gravel terrace in South West London.\n\nBefore: an overgrown back garden, knee-high grass, an old pergola and junk everywhere.\n\nThe job covered clearing the whole plot, laying a self-binding gravel terrace with a circular brick-edged pond and solar fountain, a new lawn at the back, cleaning up the borders and keeping the mature trees.\n\nAbout three weeks from start to finish.\n\nBook a design consultation – link in bio.",
+              "Brick and self-binding gravel. A circular brick-edged pond with a self-binding gravel terrace and a solar fountain, finished in South West London. Book a design consultation – link in bio."
+            ],
+            "hashtags": [
+              "#LondonGardens",
+              "#SelfBindingGravel",
+              "#GardenDesign",
+              "#Landscaping",
+              "#SouthWestLondon",
+              "#ThorburnLandscapes"
+            ],
+            "reelCoverText": "South West London: before & after"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "consent-photos",
+              "ok": false,
+              "message": "Homeowner has not confirmed photo consent yet — do not publish until they do."
+            },
+            {
+              "id": "consent-testimonial",
+              "ok": true,
+              "message": "No testimonial response yet: copy written without quote, name or area."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Captions and hashtags OK."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        },
+        "gbp_post": {
+          "content": {
+            "text": "Recently finished in South West London: a circular brick-edged pond with a self-binding gravel terrace, a solar fountain and a lawn.\n\nThe starting point: an overgrown back garden, knee-high grass, an old pergola and junk everywhere.\n\nMaterials: brick and self-binding gravel. About three weeks from start to finish.\n\nPlanning a garden design? Book a design consultation with Thorburn Landscapes.",
+            "mediaId": "m2_after",
+            "ctaType": "BOOK",
+            "ctaUrl": "https://www.thorburnlandscapes.co.uk/contact/"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "consent-photos",
+              "ok": false,
+              "message": "Homeowner has not confirmed photo consent yet — do not publish until they do."
+            },
+            {
+              "id": "consent-testimonial",
+              "ok": true,
+              "message": "No testimonial response yet: copy written without quote, name or area."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Post length OK."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fencing-clapham-photos-refused",
+      "scenario": "homeowner refused photo consent: no public assets at all",
+      "generated": false,
+      "criteria": [
+        {
+          "id": "consent",
+          "ok": true,
+          "detail": "no public assets (photos refused)"
+        }
+      ],
+      "score": 1,
+      "consentCompliant": true,
+      "premium": null,
+      "assets": {}
+    },
+    {
+      "id": "planting-richmond-3-star",
+      "scenario": "3-star rating: testimonial must not be featured, no star claims",
+      "generated": true,
+      "criteria": [
+        {
+          "id": "consent",
+          "ok": true,
+          "detail": "all consent rules respected"
+        },
+        {
+          "id": "specificity:portfolio_page",
+          "ok": true,
+          "detail": "6 brief terms (pleached hornbeam, ornamental grasses, salvias, alliums, yew, borders)"
+        },
+        {
+          "id": "sourced:portfolio_page",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:ad_copy",
+          "ok": true,
+          "detail": "3 brief terms (pleached hornbeam, yew, borders)"
+        },
+        {
+          "id": "sourced:ad_copy",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:social_pack",
+          "ok": true,
+          "detail": "6 brief terms (pleached hornbeam, ornamental grasses, salvias, alliums, yew, borders)"
+        },
+        {
+          "id": "sourced:social_pack",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:gbp_post",
+          "ok": true,
+          "detail": "3 brief terms (pleached hornbeam, yew, borders)"
+        },
+        {
+          "id": "sourced:gbp_post",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "locality:portfolio_page",
+          "ok": true,
+          "detail": "mentions \"Richmond\""
+        },
+        {
+          "id": "locality:ad_copy",
+          "ok": true,
+          "detail": "mentions \"Richmond\""
+        },
+        {
+          "id": "locality:gbp_post",
+          "ok": true,
+          "detail": "mentions \"Richmond\""
+        },
+        {
+          "id": "banned:portfolio_page",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:portfolio_page",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:portfolio_page",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:portfolio_page",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:ad_copy",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:ad_copy",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:ad_copy",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:ad_copy",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:social_pack",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:social_pack",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:social_pack",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:social_pack",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:gbp_post",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:gbp_post",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:gbp_post",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:gbp_post",
+          "ok": true,
+          "detail": "clean"
+        }
+      ],
+      "score": 1,
+      "consentCompliant": true,
+      "premium": null,
+      "assets": {
+        "portfolio_page": {
+          "content": {
+            "slug": "pleached-hornbeam-richmond-2026",
+            "seoTitle": "Pleached hornbeam & yew hedge, Richmond | Thorburn",
+            "metaDescription": "Pleached hornbeam with a yew hedge and borders in Richmond. Four days from start to finish. A Thorburn Landscapes project.",
+            "h1": "Pleached hornbeam and yew hedge in Richmond",
+            "summary": "Pleached hornbeam with a yew hedge and borders, planted by Thorburn Landscapes for a Richmond garden. The planting includes pleached hornbeam, yew, ornamental grasses, alliums and salvias. Four days from start to finish.",
+            "sections": {
+              "brief": "The job covered planting a row of five pleached hornbeam along the back fence for screening, new borders either side with ornamental grasses, salvias and alliums, a yew hedge along the side path and mulching everything with bark.",
+              "challenge": "The before photos show the garden as it was when work began.",
+              "solution": "The layout is built around pleached hornbeam with a yew hedge and borders.",
+              "result": "The finished garden has pleached hornbeam, a yew hedge and borders. Four days from start to finish."
+            },
+            "facts": {
+              "service": "Planting schemes",
+              "area": "Richmond",
+              "materials": [],
+              "features": [
+                "pleached hornbeam",
+                "yew hedge",
+                "borders"
+              ],
+              "duration": "Four days"
+            },
+            "testimonial": null,
+            "gallery": [
+              {
+                "mediaId": "m4_after",
+                "stage": "after",
+                "alt": "Finished pleached hornbeam with a yew hedge in Richmond",
+                "caption": "Finished"
+              },
+              {
+                "mediaId": "m4_before",
+                "stage": "before",
+                "alt": "The garden in Richmond before work began",
+                "caption": "Before"
+              }
+            ],
+            "beforeAfter": {
+              "beforeMediaId": "m4_before",
+              "afterMediaId": "m4_after"
+            },
+            "faqs": [
+              {
+                "q": "How long did this planting scheme project take?",
+                "a": "Four days from start to finish."
+              },
+              {
+                "q": "Do you work in Richmond?",
+                "a": "Yes. This garden is in Richmond, and Thorburn Landscapes works across South West London, including Clapham, Battersea and Balham."
+              }
+            ],
+            "cta": {
+              "text": "Book a design consultation",
+              "url": "https://www.thorburnlandscapes.co.uk/contact/"
+            },
+            "internalLinks": [
+              {
+                "text": "More finished gardens",
+                "url": "https://www.thorburnlandscapes.co.uk/projects/"
+              }
+            ]
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "testimonial-withheld",
+              "ok": true,
+              "message": "Testimonial not used (no quote, rating or stars): rating 3/5 is below the public threshold of 4."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "slug",
+              "ok": true,
+              "message": "Slug format OK."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Title, meta and headings within limits."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "alt-text",
+              "ok": true,
+              "message": "Every image has descriptive alt text."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            },
+            {
+              "id": "consent",
+              "ok": true,
+              "message": "No testimonial used."
+            }
+          ]
+        },
+        "ad_copy": {
+          "content": {
+            "meta": {
+              "hooks": [
+                "Planting scheme specialist in Richmond?",
+                "Looking for a planting scheme specialist?",
+                "Pleached hornbeam, Richmond",
+                "Before and after in Richmond",
+                "Finished in four days"
+              ],
+              "primaryTexts": [
+                "Pleached hornbeam with a yew hedge and borders. Finished in Richmond.",
+                "Pleached hornbeam with a yew hedge. Finished in Richmond.",
+                "Planning a planting scheme in Richmond? Book a design consultation.",
+                "Rated 4.9 on Which? Trusted Traders. Book a design consultation."
+              ],
+              "headlines": [
+                "Pleached hornbeam, Richmond",
+                "Planting schemes in Richmond",
+                "Before & after: Richmond garden",
+                "Yew hedge, Richmond",
+                "Pleached hornbeam"
+              ]
+            },
+            "pmax": {
+              "headlines": [
+                "Planting schemes in Richmond",
+                "Pleached hornbeam",
+                "Yew hedge",
+                "Book a design consultation",
+                "Thorburn Landscapes",
+                "Rated 4.9 on Which?"
+              ],
+              "longHeadlines": [
+                "Pleached hornbeam with a yew hedge, built in Richmond",
+                "Pleached hornbeam in Richmond",
+                "See a finished Richmond garden by Thorburn Landscapes"
+              ],
+              "descriptions": [
+                "Pleached hornbeam, yew hedge and borders in Richmond.",
+                "Pleached hornbeam and yew hedge in Richmond.",
+                "Book a design consultation with Thorburn Landscapes.",
+                "Book a design consultation."
+              ]
+            },
+            "angle": "craft"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "testimonial-withheld",
+              "ok": true,
+              "message": "Testimonial not used (no quote, rating or stars): rating 3/5 is below the public threshold of 4."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "All ad fields within platform limits."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        },
+        "social_pack": {
+          "content": {
+            "carouselOrder": [
+              "m4_before",
+              "m4_after"
+            ],
+            "captions": [
+              "Pleached hornbeam and yew hedge in Richmond.\n\nThe job covered planting a row of five pleached hornbeam along the back fence for screening, new borders either side with ornamental grasses, salvias and alliums, a yew hedge along the side path and mulching everything with bark.\n\nFour days from start to finish.\n\nBook a design consultation – link in bio.",
+              "Pleached hornbeam with a yew hedge and borders, finished in Richmond. Book a design consultation – link in bio."
+            ],
+            "hashtags": [
+              "#RichmondGardens",
+              "#PlantingDesign",
+              "#Landscaping",
+              "#SouthWestLondon",
+              "#ThorburnLandscapes"
+            ],
+            "reelCoverText": "Richmond: before & after"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "testimonial-withheld",
+              "ok": true,
+              "message": "Testimonial not used (no quote, rating or stars): rating 3/5 is below the public threshold of 4."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Captions and hashtags OK."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        },
+        "gbp_post": {
+          "content": {
+            "text": "Recently finished in Richmond: pleached hornbeam with a yew hedge and borders.\n\nFour days from start to finish.\n\nPlanning a planting scheme? Book a design consultation with Thorburn Landscapes.",
+            "mediaId": "m4_after",
+            "ctaType": "BOOK",
+            "ctaUrl": "https://www.thorburnlandscapes.co.uk/contact/"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "testimonial-withheld",
+              "ok": true,
+              "message": "Testimonial not used (no quote, rating or stars): rating 3/5 is below the public threshold of 4."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Post length OK."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "garden-room-balham-area-only",
+      "scenario": "photos + area consented, first name NOT consented",
+      "generated": true,
+      "criteria": [
+        {
+          "id": "consent",
+          "ok": true,
+          "detail": "all consent rules respected"
+        },
+        {
+          "id": "specificity:portfolio_page",
+          "ok": true,
+          "detail": "6 brief terms (garden room, porcelain, stepping stones, lawn, ferns, Japanese maple)"
+        },
+        {
+          "id": "sourced:portfolio_page",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:ad_copy",
+          "ok": true,
+          "detail": "3 brief terms (garden room, porcelain, stepping stones)"
+        },
+        {
+          "id": "sourced:ad_copy",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:social_pack",
+          "ok": true,
+          "detail": "6 brief terms (garden room, porcelain, stepping stones, lawn, ferns, Japanese maple)"
+        },
+        {
+          "id": "sourced:social_pack",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:gbp_post",
+          "ok": true,
+          "detail": "3 brief terms (garden room, porcelain, stepping stones)"
+        },
+        {
+          "id": "sourced:gbp_post",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "locality:portfolio_page",
+          "ok": true,
+          "detail": "mentions \"Balham\""
+        },
+        {
+          "id": "locality:ad_copy",
+          "ok": true,
+          "detail": "mentions \"Balham\""
+        },
+        {
+          "id": "locality:gbp_post",
+          "ok": true,
+          "detail": "mentions \"Balham\""
+        },
+        {
+          "id": "banned:portfolio_page",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:portfolio_page",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:portfolio_page",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:portfolio_page",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:ad_copy",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:ad_copy",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:ad_copy",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:ad_copy",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:social_pack",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:social_pack",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:social_pack",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:social_pack",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:gbp_post",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:gbp_post",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:gbp_post",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:gbp_post",
+          "ok": true,
+          "detail": "clean"
+        }
+      ],
+      "score": 1,
+      "consentCompliant": true,
+      "premium": null,
+      "assets": {
+        "portfolio_page": {
+          "content": {
+            "slug": "cedar-clad-garden-room-base-balham-2026",
+            "seoTitle": "Cedar-clad garden room base, Balham | Thorburn Landscapes",
+            "metaDescription": "A cedar-clad garden room base with porcelain stepping stones and side borders in Balham. Two and a half weeks from start to finish.",
+            "h1": "Cedar-clad garden room base and porcelain stepping stones in Balham",
+            "summary": "A cedar-clad garden room base with porcelain stepping stones and side borders, built by Thorburn Landscapes for a Balham garden. The planting includes Japanese maple and ferns. Two and a half weeks from start to finish.",
+            "sections": {
+              "brief": "The job covered building the base for a cedar-clad garden room, laying porcelain stepping stones through a new lawn from the patio and planting the side borders with ferns and Japanese maple.",
+              "challenge": "The work centred on a cedar-clad garden room base.",
+              "solution": "The layout is built around a cedar-clad garden room base with porcelain stepping stones and side borders. Materials: porcelain.",
+              "result": "The finished garden has a cedar-clad garden room base, porcelain stepping stones and side borders. Two and a half weeks from start to finish. The homeowner rated the work 5 out of 5."
+            },
+            "facts": {
+              "service": "Garden structures",
+              "area": "Balham",
+              "materials": [
+                "porcelain"
+              ],
+              "features": [
+                "cedar-clad garden room base",
+                "porcelain stepping stones",
+                "side borders"
+              ],
+              "duration": "Two and a half weeks"
+            },
+            "testimonial": {
+              "quote": "We work from the garden room every day now and the stepping stones are perfect.",
+              "rating": 5,
+              "attribution": "Homeowner, Balham"
+            },
+            "gallery": [
+              {
+                "mediaId": "m5_after1",
+                "stage": "after",
+                "alt": "Finished cedar-clad garden room base with porcelain stepping stones in Balham",
+                "caption": "Finished"
+              },
+              {
+                "mediaId": "m5_progress",
+                "stage": "progress",
+                "alt": "Work in progress on the cedar-clad garden room base in Balham",
+                "caption": "During the build"
+              }
+            ],
+            "beforeAfter": null,
+            "faqs": [
+              {
+                "q": "How long did this garden structure project take?",
+                "a": "Two and a half weeks from start to finish."
+              },
+              {
+                "q": "Which materials were used?",
+                "a": "Porcelain."
+              },
+              {
+                "q": "Do you work in Balham?",
+                "a": "Yes. This garden is in Balham, and Thorburn Landscapes works across South West London, including Clapham, Battersea and Barnes."
+              }
+            ],
+            "cta": {
+              "text": "Book a design consultation",
+              "url": "https://www.thorburnlandscapes.co.uk/contact/"
+            },
+            "internalLinks": [
+              {
+                "text": "More finished gardens",
+                "url": "https://www.thorburnlandscapes.co.uk/projects/"
+              }
+            ]
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "slug",
+              "ok": true,
+              "message": "Slug format OK."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Title, meta and headings within limits."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "alt-text",
+              "ok": true,
+              "message": "Every image has descriptive alt text."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            },
+            {
+              "id": "consent",
+              "ok": true,
+              "message": "Testimonial matches the homeowner's consented response."
+            }
+          ]
+        },
+        "ad_copy": {
+          "content": {
+            "meta": {
+              "hooks": [
+                "Garden structure specialist in Balham?",
+                "Looking for a garden structure specialist?",
+                "Cedar-clad garden room base, Balham",
+                "Cedar-clad garden room base, finished"
+              ],
+              "primaryTexts": [
+                "A cedar-clad garden room base with porcelain stepping stones and side borders. Finished in Balham.",
+                "A cedar-clad garden room base with porcelain stepping stones. Finished in Balham.",
+                "“We work from the garden room every day now and the stepping stones are perfect.” – Homeowner, Balham",
+                "Porcelain. A cedar-clad garden room base in Balham, two and a half weeks start to finish.",
+                "Porcelain. A cedar-clad garden room base in Balham."
+              ],
+              "headlines": [
+                "Cedar-clad garden room base, Balham",
+                "Garden structures in Balham",
+                "Porcelain stepping stones, Balham",
+                "Cedar-clad garden room base",
+                "Book a design consultation"
+              ]
+            },
+            "pmax": {
+              "headlines": [
+                "Garden structures in Balham",
+                "Cedar-clad garden room base",
+                "Porcelain stepping stones",
+                "Side borders",
+                "Book a design consultation",
+                "Thorburn Landscapes",
+                "Rated 4.9 on Which?"
+              ],
+              "longHeadlines": [
+                "A cedar-clad garden room base with porcelain stepping stones, built in Balham",
+                "A cedar-clad garden room base in Balham",
+                "See a finished Balham garden by Thorburn Landscapes"
+              ],
+              "descriptions": [
+                "Cedar-clad garden room base, porcelain stepping stones and side borders in Balham.",
+                "Cedar-clad garden room base and porcelain stepping stones in Balham.",
+                "Real work, real materials: porcelain.",
+                "Book a design consultation with Thorburn Landscapes."
+              ]
+            },
+            "angle": "proof"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "All ad fields within platform limits."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        },
+        "social_pack": {
+          "content": {
+            "carouselOrder": [
+              "m5_after1",
+              "m5_progress"
+            ],
+            "captions": [
+              "Cedar-clad garden room base and porcelain stepping stones in Balham.\n\nThe job covered building the base for a cedar-clad garden room, laying porcelain stepping stones through a new lawn from the patio and planting the side borders with ferns and Japanese maple.\n\nTwo and a half weeks from start to finish.\n\n“We work from the garden room every day now and the stepping stones are perfect.” – Homeowner, Balham.\n\nBook a design consultation – link in bio.",
+              "Porcelain. A cedar-clad garden room base with porcelain stepping stones and side borders, finished in Balham. Book a design consultation – link in bio."
+            ],
+            "hashtags": [
+              "#BalhamGardens",
+              "#GardenBuild",
+              "#Landscaping",
+              "#SouthWestLondon",
+              "#ThorburnLandscapes"
+            ],
+            "reelCoverText": "Cedar-clad garden room base"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Captions and hashtags OK."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        },
+        "gbp_post": {
+          "content": {
+            "text": "Recently finished in Balham: a cedar-clad garden room base with porcelain stepping stones and side borders.\n\nMaterials: porcelain. Two and a half weeks from start to finish.\n\n“We work from the garden room every day now and the stepping stones are perfect.” – Homeowner, Balham.\n\nPlanning a garden structure? Book a design consultation with Thorburn Landscapes.",
+            "mediaId": "m5_after1",
+            "ctaType": "BOOK",
+            "ctaUrl": "https://www.thorburnlandscapes.co.uk/contact/"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Post length OK."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "porcelain-barnes-no-area",
+      "scenario": "photos + first name consented, area NOT consented",
+      "generated": true,
+      "criteria": [
+        {
+          "id": "consent",
+          "ok": true,
+          "detail": "all consent rules respected"
+        },
+        {
+          "id": "specificity:portfolio_page",
+          "ok": true,
+          "detail": "6 brief terms (porcelain, terrace, raised beds, oak, lighting, steps)"
+        },
+        {
+          "id": "sourced:portfolio_page",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:ad_copy",
+          "ok": true,
+          "detail": "5 brief terms (porcelain, terrace, raised beds, oak, lighting)"
+        },
+        {
+          "id": "sourced:ad_copy",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:social_pack",
+          "ok": true,
+          "detail": "6 brief terms (porcelain, terrace, raised beds, oak, lighting, steps)"
+        },
+        {
+          "id": "sourced:social_pack",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:gbp_post",
+          "ok": true,
+          "detail": "5 brief terms (porcelain, terrace, raised beds, oak, lighting)"
+        },
+        {
+          "id": "sourced:gbp_post",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "locality:portfolio_page",
+          "ok": true,
+          "detail": "mentions \"South West London\""
+        },
+        {
+          "id": "locality:ad_copy",
+          "ok": true,
+          "detail": "mentions \"South West London\""
+        },
+        {
+          "id": "locality:gbp_post",
+          "ok": true,
+          "detail": "mentions \"South West London\""
+        },
+        {
+          "id": "banned:portfolio_page",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:portfolio_page",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:portfolio_page",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:portfolio_page",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:ad_copy",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:ad_copy",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:ad_copy",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:ad_copy",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:social_pack",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:social_pack",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:social_pack",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:social_pack",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:gbp_post",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:gbp_post",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:gbp_post",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:gbp_post",
+          "ok": true,
+          "detail": "clean"
+        }
+      ],
+      "score": 1,
+      "consentCompliant": true,
+      "premium": null,
+      "assets": {
+        "portfolio_page": {
+          "content": {
+            "slug": "large-format-grey-porcelain-terrace-2026",
+            "seoTitle": "Large-format grey porcelain terrace, South West London | Thorburn",
+            "metaDescription": "A large-format grey porcelain terrace with raised beds and low-voltage outdoor lighting in South West London. About two weeks from start to finish.",
+            "h1": "Large-format grey porcelain terrace and raised beds in South West London",
+            "summary": "A large-format grey porcelain terrace with raised beds and low-voltage outdoor lighting, built by Thorburn Landscapes for a garden in South West London. It replaced dated decking. About two weeks from start to finish.",
+            "sections": {
+              "brief": "The job covered laying a large-format grey porcelain terrace with a slot drain at the doors, building two raised beds in rendered blockwork with oak sleeper caps and fitting low-voltage outdoor lighting along the steps.",
+              "challenge": "The starting point: dated decking.",
+              "solution": "The layout is built around a large-format grey porcelain terrace with raised beds and low-voltage outdoor lighting. Materials: porcelain, oak and rendered blockwork.",
+              "result": "The finished garden has a large-format grey porcelain terrace, raised beds and low-voltage outdoor lighting. About two weeks from start to finish. The homeowner rated the work 4 out of 5."
+            },
+            "facts": {
+              "service": "Patios & paving",
+              "area": null,
+              "materials": [
+                "porcelain",
+                "oak",
+                "rendered blockwork"
+              ],
+              "features": [
+                "large-format grey porcelain terrace",
+                "raised beds",
+                "low-voltage outdoor lighting"
+              ],
+              "duration": "About two weeks"
+            },
+            "testimonial": {
+              "quote": "Really happy with the terrace, and the lighting makes it usable in the evenings.",
+              "rating": 4,
+              "attribution": "Daniel, South West London"
+            },
+            "gallery": [
+              {
+                "mediaId": "m6_after",
+                "stage": "after",
+                "alt": "Finished large-format grey porcelain terrace with raised beds in a South West London garden",
+                "caption": "Finished"
+              },
+              {
+                "mediaId": "m6_before",
+                "stage": "before",
+                "alt": "The garden in a South West London garden before work began",
+                "caption": "Before"
+              }
+            ],
+            "beforeAfter": {
+              "beforeMediaId": "m6_before",
+              "afterMediaId": "m6_after"
+            },
+            "faqs": [
+              {
+                "q": "How long did this patio project take?",
+                "a": "About two weeks from start to finish."
+              },
+              {
+                "q": "Which materials were used?",
+                "a": "Porcelain, oak and rendered blockwork."
+              },
+              {
+                "q": "Which areas do you cover?",
+                "a": "South West London, including Clapham, Battersea, Balham and East Sheen."
+              }
+            ],
+            "cta": {
+              "text": "Book a design consultation",
+              "url": "https://www.thorburnlandscapes.co.uk/contact/"
+            },
+            "internalLinks": [
+              {
+                "text": "More finished gardens",
+                "url": "https://www.thorburnlandscapes.co.uk/projects/"
+              }
+            ]
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "slug",
+              "ok": true,
+              "message": "Slug format OK."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Title, meta and headings within limits."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "alt-text",
+              "ok": true,
+              "message": "Every image has descriptive alt text."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            },
+            {
+              "id": "consent",
+              "ok": true,
+              "message": "Testimonial matches the homeowner's consented response."
+            }
+          ]
+        },
+        "ad_copy": {
+          "content": {
+            "meta": {
+              "hooks": [
+                "Patio specialist in South West London?",
+                "Looking for a patio specialist?",
+                "Finished in about two weeks",
+                "Large-format grey porcelain terrace, finished"
+              ],
+              "primaryTexts": [
+                "A large-format grey porcelain terrace with raised beds and low-voltage outdoor lighting. Finished in South West London.",
+                "A large-format grey porcelain terrace with raised beds. Finished in South West London.",
+                "“Really happy with the terrace, and the lighting makes it usable in the evenings.” – Daniel, South West London",
+                "Porcelain, oak and rendered blockwork. A large-format grey porcelain terrace in South West London.",
+                "Planning a patio in South West London? Book a design consultation."
+              ],
+              "headlines": [
+                "Patios & paving in South West London",
+                "Before & after: South West London garden",
+                "Raised beds, South West London",
+                "Large-format grey porcelain terrace",
+                "Book a design consultation"
+              ]
+            },
+            "pmax": {
+              "headlines": [
+                "Raised beds",
+                "Low-voltage outdoor lighting",
+                "Book a design consultation",
+                "Thorburn Landscapes",
+                "Rated 4.9 on Which?"
+              ],
+              "longHeadlines": [
+                "A large-format grey porcelain terrace with raised beds, built in South West London",
+                "A large-format grey porcelain terrace in South West London",
+                "See a finished South West London garden by Thorburn Landscapes"
+              ],
+              "descriptions": [
+                "Large-format grey porcelain terrace and raised beds in South West London.",
+                "Real work, real materials: porcelain, oak and rendered blockwork.",
+                "Book a design consultation with Thorburn Landscapes.",
+                "Book a design consultation."
+              ]
+            },
+            "angle": "proof"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "All ad fields within platform limits."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        },
+        "social_pack": {
+          "content": {
+            "carouselOrder": [
+              "m6_before",
+              "m6_after"
+            ],
+            "captions": [
+              "Large-format grey porcelain terrace and raised beds in South West London.\n\nBefore: dated decking.\n\nThe job covered laying a large-format grey porcelain terrace with a slot drain at the doors, building two raised beds in rendered blockwork with oak sleeper caps and fitting low-voltage outdoor lighting along the steps.\n\nAbout two weeks from start to finish.\n\n“Really happy with the terrace, and the lighting makes it usable in the evenings.” – Daniel, South West London.\n\nBook a design consultation – link in bio.",
+              "Porcelain, oak and rendered blockwork. A large-format grey porcelain terrace with raised beds and low-voltage outdoor lighting, finished in South West London. Book a design consultation – link in bio."
+            ],
+            "hashtags": [
+              "#LondonGardens",
+              "#RenderedBlockwork",
+              "#PatioDesign",
+              "#Landscaping",
+              "#SouthWestLondon",
+              "#ThorburnLandscapes"
+            ],
+            "reelCoverText": "South West London: before & after"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Captions and hashtags OK."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        },
+        "gbp_post": {
+          "content": {
+            "text": "Recently finished in South West London: a large-format grey porcelain terrace with raised beds and low-voltage outdoor lighting.\n\nThe starting point: dated decking.\n\nMaterials: porcelain, oak and rendered blockwork. About two weeks from start to finish.\n\n“Really happy with the terrace, and the lighting makes it usable in the evenings.” – Daniel, South West London.\n\nPlanning a patio? Book a design consultation with Thorburn Landscapes.",
+            "mediaId": "m6_after",
+            "ctaType": "BOOK",
+            "ctaUrl": "https://www.thorburnlandscapes.co.uk/contact/"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Post length OK."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "terrace-putney-quote-not-consented",
+      "scenario": "photos, area and name consented, quote NOT consented: photos yes, no quote/rating/stars anywhere",
+      "generated": true,
+      "criteria": [
+        {
+          "id": "consent",
+          "ok": true,
+          "detail": "all consent rules respected"
+        },
+        {
+          "id": "specificity:portfolio_page",
+          "ok": true,
+          "detail": "5 brief terms (York stone, terrace, reclaimed brick, lavender, hydrangeas)"
+        },
+        {
+          "id": "sourced:portfolio_page",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:ad_copy",
+          "ok": true,
+          "detail": "3 brief terms (York stone, terrace, reclaimed brick)"
+        },
+        {
+          "id": "sourced:ad_copy",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:social_pack",
+          "ok": true,
+          "detail": "5 brief terms (York stone, terrace, reclaimed brick, lavender, hydrangeas)"
+        },
+        {
+          "id": "sourced:social_pack",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:gbp_post",
+          "ok": true,
+          "detail": "3 brief terms (York stone, terrace, reclaimed brick)"
+        },
+        {
+          "id": "sourced:gbp_post",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "locality:portfolio_page",
+          "ok": true,
+          "detail": "mentions \"Putney\""
+        },
+        {
+          "id": "locality:ad_copy",
+          "ok": true,
+          "detail": "mentions \"Putney\""
+        },
+        {
+          "id": "locality:gbp_post",
+          "ok": true,
+          "detail": "mentions \"Putney\""
+        },
+        {
+          "id": "banned:portfolio_page",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:portfolio_page",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:portfolio_page",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:portfolio_page",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:ad_copy",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:ad_copy",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:ad_copy",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:ad_copy",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:social_pack",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:social_pack",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:social_pack",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:social_pack",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:gbp_post",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:gbp_post",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:gbp_post",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:gbp_post",
+          "ok": true,
+          "detail": "clean"
+        }
+      ],
+      "score": 1,
+      "consentCompliant": true,
+      "premium": null,
+      "assets": {
+        "portfolio_page": {
+          "content": {
+            "slug": "patio-putney-2026",
+            "seoTitle": "Patio & York stone terrace, Putney | Thorburn",
+            "metaDescription": "A patio with a York stone terrace and a brick edging in Putney. Ten days from start to finish. A Thorburn Landscapes project.",
+            "h1": "Patio and York stone terrace in Putney",
+            "summary": "A patio with a York stone terrace and a brick edging, built by Thorburn Landscapes for a Putney garden. The planting includes lavender and hydrangeas. Ten days from start to finish.",
+            "sections": {
+              "brief": "The job covered a took up the old patio, laying a York stone terrace with a brick edging, a rebuilt the low garden wall in reclaimed brick and planting the new beds with lavender and hydrangeas.",
+              "challenge": "The before photos show the garden as it was when work began.",
+              "solution": "The layout is built around a patio with a York stone terrace and a brick edging. Materials: York stone and reclaimed brick.",
+              "result": "The finished garden has a patio, a York stone terrace and a brick edging. Ten days from start to finish."
+            },
+            "facts": {
+              "service": "Patios & paving",
+              "area": "Putney",
+              "materials": [
+                "York stone",
+                "reclaimed brick"
+              ],
+              "features": [
+                "patio",
+                "York stone terrace",
+                "brick edging"
+              ],
+              "duration": "Ten days"
+            },
+            "testimonial": null,
+            "gallery": [
+              {
+                "mediaId": "m7_after",
+                "stage": "after",
+                "alt": "Finished patio with a York stone terrace in Putney",
+                "caption": "Finished"
+              },
+              {
+                "mediaId": "m7_before",
+                "stage": "before",
+                "alt": "The garden in Putney before work began",
+                "caption": "Before"
+              }
+            ],
+            "beforeAfter": {
+              "beforeMediaId": "m7_before",
+              "afterMediaId": "m7_after"
+            },
+            "faqs": [
+              {
+                "q": "How long did this patio project take?",
+                "a": "Ten days from start to finish."
+              },
+              {
+                "q": "Which materials were used?",
+                "a": "York stone and reclaimed brick."
+              },
+              {
+                "q": "Do you work in Putney?",
+                "a": "Yes. This garden is in Putney, and Thorburn Landscapes works across South West London, including Clapham, Battersea and Balham."
+              }
+            ],
+            "cta": {
+              "text": "Book a design consultation",
+              "url": "https://www.thorburnlandscapes.co.uk/contact/"
+            },
+            "internalLinks": [
+              {
+                "text": "More finished gardens",
+                "url": "https://www.thorburnlandscapes.co.uk/projects/"
+              }
+            ]
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "testimonial-withheld",
+              "ok": true,
+              "message": "Testimonial not used (no quote, rating or stars): the homeowner did not give permission to quote their words."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "slug",
+              "ok": true,
+              "message": "Slug format OK."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Title, meta and headings within limits."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "alt-text",
+              "ok": true,
+              "message": "Every image has descriptive alt text."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            },
+            {
+              "id": "consent",
+              "ok": true,
+              "message": "No testimonial used."
+            }
+          ]
+        },
+        "ad_copy": {
+          "content": {
+            "meta": {
+              "hooks": [
+                "Patio specialist in Putney?",
+                "Looking for a patio specialist?",
+                "Patio, Putney",
+                "Before and after in Putney",
+                "Finished in ten days"
+              ],
+              "primaryTexts": [
+                "A patio with a York stone terrace and a brick edging. Finished in Putney.",
+                "A patio with a York stone terrace. Finished in Putney.",
+                "York stone and reclaimed brick. A patio in Putney, ten days start to finish.",
+                "York stone and reclaimed brick. A patio in Putney.",
+                "Planning a patio in Putney? Book a design consultation."
+              ],
+              "headlines": [
+                "Patio, Putney",
+                "Patios & paving in Putney",
+                "Before & after: Putney garden",
+                "York stone terrace, Putney",
+                "Patio"
+              ]
+            },
+            "pmax": {
+              "headlines": [
+                "Patios & paving in Putney",
+                "York stone terrace",
+                "Brick edging",
+                "Book a design consultation",
+                "Thorburn Landscapes",
+                "Rated 4.9 on Which?"
+              ],
+              "longHeadlines": [
+                "A patio with a York stone terrace, built in Putney",
+                "A patio in Putney",
+                "See a finished Putney garden by Thorburn Landscapes"
+              ],
+              "descriptions": [
+                "Patio, York stone terrace and brick edging in Putney.",
+                "Patio and York stone terrace in Putney.",
+                "Real work, real materials: York stone and reclaimed brick.",
+                "Book a design consultation with Thorburn Landscapes."
+              ]
+            },
+            "angle": "craft"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "testimonial-withheld",
+              "ok": true,
+              "message": "Testimonial not used (no quote, rating or stars): the homeowner did not give permission to quote their words."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "All ad fields within platform limits."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        },
+        "social_pack": {
+          "content": {
+            "carouselOrder": [
+              "m7_before",
+              "m7_after"
+            ],
+            "captions": [
+              "Patio and York stone terrace in Putney.\n\nThe job covered a took up the old patio, laying a York stone terrace with a brick edging, a rebuilt the low garden wall in reclaimed brick and planting the new beds with lavender and hydrangeas.\n\nTen days from start to finish.\n\nBook a design consultation – link in bio.",
+              "York stone and reclaimed brick. A patio with a York stone terrace and a brick edging, finished in Putney. Book a design consultation – link in bio."
+            ],
+            "hashtags": [
+              "#PutneyGardens",
+              "#YorkStone",
+              "#ReclaimedBrick",
+              "#PatioDesign",
+              "#Landscaping",
+              "#SouthWestLondon",
+              "#ThorburnLandscapes"
+            ],
+            "reelCoverText": "Putney: before & after"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "testimonial-withheld",
+              "ok": true,
+              "message": "Testimonial not used (no quote, rating or stars): the homeowner did not give permission to quote their words."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Captions and hashtags OK."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        },
+        "gbp_post": {
+          "content": {
+            "text": "Recently finished in Putney: a patio with a York stone terrace and a brick edging.\n\nMaterials: York stone and reclaimed brick. Ten days from start to finish.\n\nPlanning a patio? Book a design consultation with Thorburn Landscapes.",
+            "mediaId": "m7_after",
+            "ctaType": "BOOK",
+            "ctaUrl": "https://www.thorburnlandscapes.co.uk/contact/"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "testimonial-withheld",
+              "ok": true,
+              "message": "Testimonial not used (no quote, rating or stars): the homeowner did not give permission to quote their words."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Post length OK."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lawn-wandsworth-withdrawn",
+      "scenario": "homeowner gave full consent, then withdrew it: nothing public at all",
+      "generated": false,
+      "criteria": [
+        {
+          "id": "consent",
+          "ok": true,
+          "detail": "no public assets (consent withdrawn)"
+        }
+      ],
+      "score": 1,
+      "consentCompliant": true,
+      "premium": null,
+      "assets": {}
+    },
+    {
+      "id": "pergola-clapham-flagged-photo",
+      "scenario": "one after photo flagged 'needs blur' (house number) and not cleared: it must not appear anywhere",
+      "generated": true,
+      "criteria": [
+        {
+          "id": "consent",
+          "ok": true,
+          "detail": "all consent rules respected"
+        },
+        {
+          "id": "specificity:portfolio_page",
+          "ok": true,
+          "detail": "5 brief terms (oak pergola, sandstone, star jasmine, wisteria, railway sleepers)"
+        },
+        {
+          "id": "sourced:portfolio_page",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:ad_copy",
+          "ok": true,
+          "detail": "3 brief terms (oak pergola, sandstone, railway sleepers)"
+        },
+        {
+          "id": "sourced:ad_copy",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:social_pack",
+          "ok": true,
+          "detail": "5 brief terms (oak pergola, sandstone, star jasmine, wisteria, railway sleepers)"
+        },
+        {
+          "id": "sourced:social_pack",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "specificity:gbp_post",
+          "ok": true,
+          "detail": "3 brief terms (oak pergola, sandstone, railway sleepers)"
+        },
+        {
+          "id": "sourced:gbp_post",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "locality:portfolio_page",
+          "ok": true,
+          "detail": "mentions \"Clapham\""
+        },
+        {
+          "id": "locality:ad_copy",
+          "ok": true,
+          "detail": "mentions \"Clapham\""
+        },
+        {
+          "id": "locality:gbp_post",
+          "ok": true,
+          "detail": "mentions \"Clapham\""
+        },
+        {
+          "id": "banned:portfolio_page",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:portfolio_page",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:portfolio_page",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:portfolio_page",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:ad_copy",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:ad_copy",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:ad_copy",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:ad_copy",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:social_pack",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:social_pack",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:social_pack",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:social_pack",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:gbp_post",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:gbp_post",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:gbp_post",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:gbp_post",
+          "ok": true,
+          "detail": "clean"
+        }
+      ],
+      "score": 1,
+      "consentCompliant": true,
+      "premium": null,
+      "assets": {
+        "portfolio_page": {
+          "content": {
+            "slug": "oak-pergola-clapham-2026",
+            "seoTitle": "Oak pergola & raised beds, Clapham | Thorburn",
+            "metaDescription": "An oak pergola with raised beds in Clapham. About two weeks from start to finish. A Thorburn Landscapes project.",
+            "h1": "Oak pergola and raised beds in Clapham",
+            "summary": "An oak pergola with raised beds, built by Thorburn Landscapes for a Clapham garden. The planting includes star jasmine and wisteria. About two weeks from start to finish.",
+            "sections": {
+              "brief": "The job covered building an oak pergola over the new sandstone patio, planting star jasmine and wisteria to climb the site and adding raised beds in railway sleepers.",
+              "challenge": "The before photos show the garden as it was when work began.",
+              "solution": "The layout is built around an oak pergola with raised beds. Materials: sandstone, oak and railway sleepers.",
+              "result": "The finished garden has an oak pergola and raised beds. About two weeks from start to finish. The homeowner rated the work 5 out of 5."
+            },
+            "facts": {
+              "service": "Garden structures",
+              "area": "Clapham",
+              "materials": [
+                "sandstone",
+                "oak",
+                "railway sleepers"
+              ],
+              "features": [
+                "oak pergola",
+                "raised beds"
+              ],
+              "duration": "About two weeks"
+            },
+            "testimonial": {
+              "quote": "The pergola is exactly what we wanted.",
+              "rating": 5,
+              "attribution": "Hannah, Clapham"
+            },
+            "gallery": [
+              {
+                "mediaId": "m9_after_back",
+                "stage": "after",
+                "alt": "Finished oak pergola with raised beds in Clapham",
+                "caption": "Finished"
+              },
+              {
+                "mediaId": "m9_after_cleared",
+                "stage": "after",
+                "alt": "Another view of the finished oak pergola in Clapham",
+                "caption": "Finished"
+              },
+              {
+                "mediaId": "m9_before",
+                "stage": "before",
+                "alt": "The garden in Clapham before work began",
+                "caption": "Before"
+              }
+            ],
+            "beforeAfter": {
+              "beforeMediaId": "m9_before",
+              "afterMediaId": "m9_after_back"
+            },
+            "faqs": [
+              {
+                "q": "How long did this garden structure project take?",
+                "a": "About two weeks from start to finish."
+              },
+              {
+                "q": "Which materials were used?",
+                "a": "Sandstone, oak and railway sleepers."
+              },
+              {
+                "q": "Do you work in Clapham?",
+                "a": "Yes. This garden is in Clapham, and Thorburn Landscapes works across South West London, including Battersea, Balham and Barnes."
+              }
+            ],
+            "cta": {
+              "text": "Book a design consultation",
+              "url": "https://www.thorburnlandscapes.co.uk/contact/"
+            },
+            "internalLinks": [
+              {
+                "text": "More finished gardens",
+                "url": "https://www.thorburnlandscapes.co.uk/projects/"
+              }
+            ]
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "media-excluded",
+              "ok": true,
+              "message": "Left out 1 image(s) that are not public-safe yet (needs blur, not privacy-screened, low quality or no public copy): m9_after_front."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "slug",
+              "ok": true,
+              "message": "Slug format OK."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Title, meta and headings within limits."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "alt-text",
+              "ok": true,
+              "message": "Every image has descriptive alt text."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            },
+            {
+              "id": "consent",
+              "ok": true,
+              "message": "Testimonial matches the homeowner's consented response."
+            }
+          ]
+        },
+        "ad_copy": {
+          "content": {
+            "meta": {
+              "hooks": [
+                "Garden structure specialist in Clapham?",
+                "Looking for a garden structure specialist?",
+                "Oak pergola, Clapham",
+                "Before and after in Clapham",
+                "Finished in about two weeks"
+              ],
+              "primaryTexts": [
+                "An oak pergola with raised beds. Finished in Clapham.",
+                "“The pergola is exactly what we wanted.” – Hannah, Clapham",
+                "Sandstone, oak and railway sleepers. An oak pergola in Clapham, about two weeks start to finish.",
+                "Sandstone, oak and railway sleepers. An oak pergola in Clapham.",
+                "Planning a garden structure in Clapham? Book a design consultation."
+              ],
+              "headlines": [
+                "Oak pergola, Clapham",
+                "Garden structures in Clapham",
+                "Before & after: Clapham garden",
+                "Raised beds, Clapham",
+                "Oak pergola"
+              ]
+            },
+            "pmax": {
+              "headlines": [
+                "Garden structures in Clapham",
+                "Oak pergola",
+                "Raised beds",
+                "Book a design consultation",
+                "Thorburn Landscapes",
+                "Rated 4.9 on Which?"
+              ],
+              "longHeadlines": [
+                "An oak pergola with raised beds, built in Clapham",
+                "An oak pergola in Clapham",
+                "See a finished Clapham garden by Thorburn Landscapes"
+              ],
+              "descriptions": [
+                "Oak pergola and raised beds in Clapham.",
+                "Real work, real materials: sandstone, oak and railway sleepers.",
+                "Book a design consultation with Thorburn Landscapes.",
+                "Book a design consultation."
+              ]
+            },
+            "angle": "proof"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "media-excluded",
+              "ok": true,
+              "message": "Left out 1 image(s) that are not public-safe yet (needs blur, not privacy-screened, low quality or no public copy): m9_after_front."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "All ad fields within platform limits."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        },
+        "social_pack": {
+          "content": {
+            "carouselOrder": [
+              "m9_before",
+              "m9_after_back",
+              "m9_after_cleared"
+            ],
+            "captions": [
+              "Oak pergola and raised beds in Clapham.\n\nThe job covered building an oak pergola over the new sandstone patio, planting star jasmine and wisteria to climb the site and adding raised beds in railway sleepers.\n\nAbout two weeks from start to finish.\n\n“The pergola is exactly what we wanted.” – Hannah, Clapham.\n\nBook a design consultation – link in bio.",
+              "Sandstone, oak and railway sleepers. An oak pergola with raised beds, finished in Clapham. Book a design consultation – link in bio."
+            ],
+            "hashtags": [
+              "#ClaphamGardens",
+              "#RailwaySleepers",
+              "#GardenBuild",
+              "#Landscaping",
+              "#SouthWestLondon",
+              "#ThorburnLandscapes"
+            ],
+            "reelCoverText": "Clapham: before & after"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "media-excluded",
+              "ok": true,
+              "message": "Left out 1 image(s) that are not public-safe yet (needs blur, not privacy-screened, low quality or no public copy): m9_after_front."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Captions and hashtags OK."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        },
+        "gbp_post": {
+          "content": {
+            "text": "Recently finished in Clapham: an oak pergola with raised beds.\n\nMaterials: sandstone, oak and railway sleepers. About two weeks from start to finish.\n\n“The pergola is exactly what we wanted.” – Hannah, Clapham.\n\nPlanning a garden structure? Book a design consultation with Thorburn Landscapes.",
+            "mediaId": "m9_after_back",
+            "ctaType": "BOOK",
+            "ctaUrl": "https://www.thorburnlandscapes.co.uk/contact/"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "media-excluded",
+              "ok": true,
+              "message": "Left out 1 image(s) that are not public-safe yet (needs blur, not privacy-screened, low quality or no public copy): m9_after_front."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Post length OK."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "garden-design-wimbledon-thin",
+      "scenario": "no crew brief or voice note (thin input): short honest copy and a thin-input flag",
+      "generated": true,
+      "criteria": [
+        {
+          "id": "consent",
+          "ok": true,
+          "detail": "all consent rules respected"
+        },
+        {
+          "id": "thin-flagged:portfolio_page",
+          "ok": true,
+          "detail": "reviewer asked for crew notes"
+        },
+        {
+          "id": "sourced:portfolio_page",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "thin-flagged:ad_copy",
+          "ok": true,
+          "detail": "reviewer asked for crew notes"
+        },
+        {
+          "id": "sourced:ad_copy",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "thin-flagged:social_pack",
+          "ok": true,
+          "detail": "reviewer asked for crew notes"
+        },
+        {
+          "id": "sourced:social_pack",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "thin-flagged:gbp_post",
+          "ok": true,
+          "detail": "reviewer asked for crew notes"
+        },
+        {
+          "id": "sourced:gbp_post",
+          "ok": true,
+          "detail": "no generic workmanship claims"
+        },
+        {
+          "id": "locality:portfolio_page",
+          "ok": true,
+          "detail": "mentions \"South West London\""
+        },
+        {
+          "id": "locality:ad_copy",
+          "ok": true,
+          "detail": "mentions \"South West London\""
+        },
+        {
+          "id": "locality:gbp_post",
+          "ok": true,
+          "detail": "mentions \"South West London\""
+        },
+        {
+          "id": "banned:portfolio_page",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:portfolio_page",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:portfolio_page",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:portfolio_page",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:ad_copy",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:ad_copy",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:ad_copy",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:ad_copy",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:social_pack",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:social_pack",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:social_pack",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:social_pack",
+          "ok": true,
+          "detail": "clean"
+        },
+        {
+          "id": "banned:gbp_post",
+          "ok": true,
+          "detail": "none"
+        },
+        {
+          "id": "cta:gbp_post",
+          "ok": true,
+          "detail": "present"
+        },
+        {
+          "id": "lengths:gbp_post",
+          "ok": true,
+          "detail": "within limits"
+        },
+        {
+          "id": "lint:gbp_post",
+          "ok": true,
+          "detail": "clean"
+        }
+      ],
+      "score": 1,
+      "consentCompliant": true,
+      "premium": null,
+      "assets": {
+        "portfolio_page": {
+          "content": {
+            "slug": "garden-design-2026",
+            "seoTitle": "Garden design & build in South West London | Thorburn",
+            "metaDescription": "Garden design & build in South West London by Thorburn Landscapes. See the before and after photos.",
+            "h1": "Garden design & build in South West London",
+            "summary": "Garden design & build in South West London by Thorburn Landscapes. The photos show the garden before work began and once it was finished.",
+            "sections": {
+              "brief": "Garden design & build in South West London, completed in 2026.",
+              "challenge": "The before photos show the garden as it was when work began.",
+              "solution": "Designed and built by the Thorburn Landscapes team.",
+              "result": "The after photos show the finished garden."
+            },
+            "facts": {
+              "service": "Garden design & build",
+              "area": null,
+              "materials": [],
+              "features": [],
+              "duration": null
+            },
+            "testimonial": null,
+            "gallery": [
+              {
+                "mediaId": "m10_after",
+                "stage": "after",
+                "alt": "The finished garden in South West London",
+                "caption": "Finished"
+              },
+              {
+                "mediaId": "m10_before",
+                "stage": "before",
+                "alt": "The garden in South West London before work began",
+                "caption": "Before"
+              }
+            ],
+            "beforeAfter": {
+              "beforeMediaId": "m10_before",
+              "afterMediaId": "m10_after"
+            },
+            "faqs": [
+              {
+                "q": "Which areas do you cover?",
+                "a": "South West London, including Clapham, Battersea, Balham and Barnes."
+              }
+            ],
+            "cta": {
+              "text": "Book a design consultation",
+              "url": "https://www.thorburnlandscapes.co.uk/contact/"
+            },
+            "internalLinks": [
+              {
+                "text": "More finished gardens",
+                "url": "https://www.thorburnlandscapes.co.uk/projects/"
+              }
+            ]
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "consent-photos",
+              "ok": false,
+              "message": "Homeowner has not confirmed photo consent yet — do not publish until they do."
+            },
+            {
+              "id": "consent-testimonial",
+              "ok": true,
+              "message": "No testimonial response yet: copy written without quote, name or area."
+            },
+            {
+              "id": "thin-input",
+              "ok": false,
+              "message": "No crew brief or voice note for this job, so the copy only uses the service, area and photos. Add crew notes (what was built, materials, how long) and regenerate."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "slug",
+              "ok": true,
+              "message": "Slug format OK."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Title, meta and headings within limits."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "alt-text",
+              "ok": true,
+              "message": "Every image has descriptive alt text."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            },
+            {
+              "id": "consent",
+              "ok": true,
+              "message": "No testimonial used."
+            }
+          ]
+        },
+        "ad_copy": {
+          "content": {
+            "meta": {
+              "hooks": [
+                "Looking for a garden design specialist?",
+                "Same garden, before and after",
+                "Garden design, finished",
+                "A finished South West London garden",
+                "Recently finished: garden design"
+              ],
+              "primaryTexts": [
+                "Garden design & build in South West London, finished by Thorburn Landscapes.",
+                "Before and after: a garden design in South West London.",
+                "Planning a garden design in South West London? Book a design consultation.",
+                "Rated 4.9 on Which? Trusted Traders. Book a design consultation.",
+                "Book a design consultation with Thorburn Landscapes."
+              ],
+              "headlines": [
+                "Garden design & build, South West London",
+                "Before & after: South West London garden",
+                "Book a design consultation",
+                "Thorburn Landscapes"
+              ]
+            },
+            "pmax": {
+              "headlines": [
+                "Garden design & build",
+                "Book a design consultation",
+                "Thorburn Landscapes",
+                "Rated 4.9 on Which?"
+              ],
+              "longHeadlines": [
+                "Garden design & build in South West London by Thorburn Landscapes",
+                "See a finished South West London garden by Thorburn Landscapes",
+                "Garden design & build in South West London"
+              ],
+              "descriptions": [
+                "Garden design & build in South West London.",
+                "Book a design consultation with Thorburn Landscapes.",
+                "Book a design consultation."
+              ]
+            },
+            "angle": "transformation"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "consent-photos",
+              "ok": false,
+              "message": "Homeowner has not confirmed photo consent yet — do not publish until they do."
+            },
+            {
+              "id": "consent-testimonial",
+              "ok": true,
+              "message": "No testimonial response yet: copy written without quote, name or area."
+            },
+            {
+              "id": "thin-input",
+              "ok": false,
+              "message": "No crew brief or voice note for this job, so the copy only uses the service, area and photos. Add crew notes (what was built, materials, how long) and regenerate."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "All ad fields within platform limits."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        },
+        "social_pack": {
+          "content": {
+            "carouselOrder": [
+              "m10_before",
+              "m10_after"
+            ],
+            "captions": [
+              "Garden design & build in South West London.\n\nThe photos show the garden before work began and once it was finished.\n\nBook a design consultation – link in bio.",
+              "Garden design & build, finished in South West London. Book a design consultation – link in bio."
+            ],
+            "hashtags": [
+              "#LondonGardens",
+              "#GardenDesign",
+              "#Landscaping",
+              "#SouthWestLondon",
+              "#ThorburnLandscapes"
+            ],
+            "reelCoverText": "South West London: before & after"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "consent-photos",
+              "ok": false,
+              "message": "Homeowner has not confirmed photo consent yet — do not publish until they do."
+            },
+            {
+              "id": "consent-testimonial",
+              "ok": true,
+              "message": "No testimonial response yet: copy written without quote, name or area."
+            },
+            {
+              "id": "thin-input",
+              "ok": false,
+              "message": "No crew brief or voice note for this job, so the copy only uses the service, area and photos. Add crew notes (what was built, materials, how long) and regenerate."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Captions and hashtags OK."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        },
+        "gbp_post": {
+          "content": {
+            "text": "Recently finished in South West London: garden design & build. The photos show the garden before work began and once it was finished.\n\nPlanning a garden design? Book a design consultation with Thorburn Landscapes.",
+            "mediaId": "m10_after",
+            "ctaType": "BOOK",
+            "ctaUrl": "https://www.thorburnlandscapes.co.uk/contact/"
+          },
+          "checks": [
+            {
+              "id": "demo-ai",
+              "ok": true,
+              "message": "Generated by demo mode (no API key)"
+            },
+            {
+              "id": "consent-photos",
+              "ok": false,
+              "message": "Homeowner has not confirmed photo consent yet — do not publish until they do."
+            },
+            {
+              "id": "consent-testimonial",
+              "ok": true,
+              "message": "No testimonial response yet: copy written without quote, name or area."
+            },
+            {
+              "id": "thin-input",
+              "ok": false,
+              "message": "No crew brief or voice note for this job, so the copy only uses the service, area and photos. Add crew notes (what was built, materials, how long) and regenerate."
+            },
+            {
+              "id": "schema",
+              "ok": true,
+              "message": "Matches the content contract."
+            },
+            {
+              "id": "banned-phrases",
+              "ok": true,
+              "message": "No banned phrases."
+            },
+            {
+              "id": "british-spelling",
+              "ok": true,
+              "message": "British spelling."
+            },
+            {
+              "id": "exclamations",
+              "ok": true,
+              "message": "Calm punctuation."
+            },
+            {
+              "id": "grammar",
+              "ok": true,
+              "message": "No obvious grammar slips."
+            },
+            {
+              "id": "privacy",
+              "ok": true,
+              "message": "No address, postcode or non-consented personal details."
+            },
+            {
+              "id": "claims",
+              "ok": true,
+              "message": "Every number and rating traces to job data."
+            },
+            {
+              "id": "quote-verbatim",
+              "ok": true,
+              "message": "Any quote is the homeowner's consented words, verbatim."
+            },
+            {
+              "id": "repetition",
+              "ok": true,
+              "message": "No repeated phrases."
+            },
+            {
+              "id": "cta-punctuation",
+              "ok": true,
+              "message": "The call to action starts its own sentence."
+            },
+            {
+              "id": "lengths",
+              "ok": true,
+              "message": "Post length OK."
+            },
+            {
+              "id": "media-ids",
+              "ok": true,
+              "message": "All media belong to this job."
+            },
+            {
+              "id": "cta",
+              "ok": true,
+              "message": "Call to action present."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "rubricPassRate": 1,
+  "consentCompliance": 1,
+  "premiumAverage": null
+}

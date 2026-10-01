@@ -1,0 +1,218 @@
+/*
+ * Owner app design tokens. Calm, system-native: grouped background, white cards, one accent (the business's
+ * own brand colour, set inline on .owner as --brand). Light by default, a real dark mode from the system setting.
+ * Components use these through Tailwind's var shorthand, e.g. bg-(--card) text-(--ink2).
+ */
+.owner {
+  --brand: #2a7d2e;
+  --bg: #f2f2ef;
+  --card: #ffffff;
+  --card-2: #f7f7f5;
+  --ink: #141512;
+  --ink2: #6b6d66;
+  --ink3: #a3a59d;
+  --sep: rgba(20, 21, 18, 0.09);
+  --fill: rgba(118, 118, 110, 0.12);
+  --fill2: rgba(118, 118, 110, 0.07);
+  --accent: var(--brand);
+  --accent-ink: #ffffff;
+  --accent-soft: color-mix(in srgb, var(--brand) 11%, transparent);
+  --red: #d63b30;
+  --red-soft: rgba(214, 59, 48, 0.1);
+  --amber: #b86e00;
+  --amber-soft: rgba(230, 150, 20, 0.14);
+  --green: #1f8a44;
+  --green-soft: rgba(31, 138, 68, 0.12);
+  --blur-bg: rgba(248, 248, 246, 0.78);
+  --shadow: 0 1px 1px rgba(20, 21, 18, 0.03), 0 6px 24px -8px rgba(20, 21, 18, 0.1);
+  --shadow-lg: 0 20px 60px -12px rgba(20, 21, 18, 0.28);
+
+  --font-ui: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI Variable Text", "Segoe UI", Roboto,
+    var(--font-sans-base), "Helvetica Neue", Arial, sans-serif;
+  --font-title: var(--brand-font, -apple-system), -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI Variable Display",
+    "Segoe UI", Roboto, var(--font-sans-base), "Helvetica Neue", Arial, sans-serif;
+
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-feature-settings: "cv11", "ss01";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  .owner:not([data-theme="light"]) {
+    --bg: #000000;
+    --card: #1c1c1e;
+    --card-2: #242426;
+    --ink: #f4f4f1;
+    --ink2: #9a9c95;
+    --ink3: #62645e;
+    --sep: rgba(255, 255, 255, 0.1);
+    --fill: rgba(120, 120, 128, 0.3);
+    --fill2: rgba(120, 120, 128, 0.18);
+    --accent: color-mix(in srgb, var(--brand) 72%, white);
+    --accent-ink: #0b0c0a;
+    --accent-soft: color-mix(in srgb, var(--brand) 26%, transparent);
+    --red: #ff6b5f;
+    --red-soft: rgba(255, 107, 95, 0.16);
+    --amber: #f2b441;
+    --amber-soft: rgba(242, 180, 65, 0.16);
+    --green: #4fd07b;
+    --green-soft: rgba(79, 208, 123, 0.16);
+    --blur-bg: rgba(22, 22, 24, 0.78);
+    --shadow: none;
+    --shadow-lg: 0 20px 60px -12px rgba(0, 0, 0, 0.7);
+    color-scheme: dark;
+  }
+}
+
+/* A subtree that wears another brand (the set-up flow previews the business's own colour). */
+.owner .brand-scope {
+  --accent: var(--brand);
+  --accent-soft: color-mix(in srgb, var(--brand) 11%, transparent);
+}
+@media (prefers-color-scheme: dark) {
+  .owner:not([data-theme="light"]) .brand-scope {
+    --accent: color-mix(in srgb, var(--brand) 72%, white);
+    --accent-soft: color-mix(in srgb, var(--brand) 26%, transparent);
+  }
+}
+
+.owner .font-title {
+  font-family: var(--font-title);
+  letter-spacing: -0.022em;
+}
+
+.owner .tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Hide scrollbars on horizontal rails (stage stepper, photo strips). */
+.owner .rail {
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+}
+.owner .rail::-webkit-scrollbar {
+  display: none;
+}
+
+.owner .pb-tabbar {
+  padding-bottom: calc(96px + env(safe-area-inset-bottom));
+}
+@media (min-width: 1024px) {
+  .owner .pb-tabbar {
+    padding-bottom: 64px;
+  }
+}
+.owner .safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Motion: quiet and quick. Respect reduced motion. */
+@keyframes owner-rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes owner-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes owner-sheet {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes owner-pop {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes owner-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes owner-pulse {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.owner .anim-rise {
+  animation: owner-rise 0.42s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+.owner .anim-fade {
+  animation: owner-fade 0.25s ease-out both;
+}
+.owner .anim-sheet {
+  animation: owner-sheet 0.36s cubic-bezier(0.2, 0.9, 0.25, 1) both;
+}
+.owner .anim-pop {
+  animation: owner-pop 0.32s cubic-bezier(0.2, 0.9, 0.25, 1) both;
+}
+@media (min-width: 1024px) {
+  .owner .anim-sheet {
+    animation-name: owner-pop;
+  }
+}
+.owner .anim-spin {
+  animation: owner-spin 0.8s linear infinite;
+}
+.owner .anim-pulse {
+  animation: owner-pulse 1.4s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .owner .anim-rise,
+  .owner .anim-fade,
+  .owner .anim-sheet,
+  .owner .anim-pop {
+    animation: none;
+  }
+}
+
+/* Press feedback on anything tappable. */
+.owner .press {
+  transition:
+    transform 0.16s ease,
+    opacity 0.16s ease,
+    background-color 0.2s ease;
+}
+.owner .press:active {
+  transform: scale(0.97);
+  opacity: 0.85;
+}
+
+.owner input,
+.owner textarea,
+.owner select,
+.owner button {
+  font: inherit;
+}
+.owner :focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}

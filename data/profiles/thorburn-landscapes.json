@@ -1,0 +1,704 @@
+{
+  "version": 1,
+  "source": {
+    "url": "https://thorburnlandscapes.co.uk/",
+    "scrapedAt": "2026-09-24T11:01:54.768Z"
+  },
+  "name": "Thorburn Landscapes",
+  "legalName": "Thorburn Landscapes Limited",
+  "companyNumber": "09013186",
+  "yearsTrading": 14,
+  "tagline": "Gardening & Landscaping in South London",
+  "about": "With over 14 years of experience, Thorburn Landscapes is South London’s trusted name in garden design, landscaping, and garden maintenance. Whether you’re after a full garden transformation or regular upkeep, we bring creativity, care, and craftsmanship to every project.",
+  "contact": {
+    "phone": "020 8064 1303",
+    "email": "info@thorburnlandscapes.co.uk",
+    "address": "Wimbledon",
+    "postcode": "SW19 3NW"
+  },
+  "brand": {
+    "colors": {
+      "primary": "#2A7D2E",
+      "secondary": "#F1D2A9",
+      "accent": "#2A7D2E",
+      "background": "#FFFFFF",
+      "text": "#0B3D2C"
+    },
+    "fonts": {
+      "heading": "Montserrat",
+      "body": "Roboto"
+    },
+    "logoUrl": "https://thorburnlandscapes.co.uk/wp-content/uploads/2014/09/logo-header1.png",
+    "logoKey": "intel/thorburn-landscapes/brand/logo.png",
+    "faviconUrl": "https://thorburnlandscapes.co.uk/wp-content/uploads/2019/03/cropped-TH-512-1-32x32.png",
+    "buttonRadius": "20px"
+  },
+  "shell": {
+    "headerHtml": "<header class=\"gp-shell gp-shell-header\"><div class=\"gp-shell-inner\"><a class=\"gp-shell-home\" href=\"https://thorburnlandscapes.co.uk/\"><img class=\"gp-shell-logo\" src=\"https://thorburnlandscapes.co.uk/wp-content/uploads/2014/09/logo-header1.png\" alt=\"Thorburn Landscapes\" width=\"130\" height=\"80\" loading=\"eager\" decoding=\"async\"></a><div class=\"gp-shell-main\"><ul class=\"gp-shell-topbar\"><li class=\"gp-shell-topitem gp-shell-email\"><span class=\"gp-shell-icon gp-shell-icon-email\" aria-hidden=\"true\"></span><span class=\"gp-shell-label\">Email:</span> <a class=\"gp-shell-value\" href=\"mailto:info@thorburnlandscapes.co.uk\">info@thorburnlandscapes.co.uk</a></li><li class=\"gp-shell-topitem gp-shell-phone\"><span class=\"gp-shell-icon gp-shell-icon-phone\" aria-hidden=\"true\"></span><span class=\"gp-shell-label\">Call:</span> <a class=\"gp-shell-value\" href=\"tel:02080641303\">020 8064 1303</a></li><li class=\"gp-shell-topitem gp-shell-location\"><span class=\"gp-shell-icon gp-shell-icon-location\" aria-hidden=\"true\"></span><span class=\"gp-shell-label\">Location:</span> <a class=\"gp-shell-value\" href=\"https://thorburnlandscapes.co.uk/contact/\">Wimbledon, SW19 3NW</a></li></ul><div class=\"gp-shell-row\"><nav class=\"gp-shell-nav\" aria-label=\"Thorburn Landscapes\"><ul class=\"gp-shell-menu\"><li class=\"gp-shell-navitem gp-shell-has-sub\"><a class=\"gp-shell-navlink\" href=\"https://thorburnlandscapes.co.uk/service/landscaping/\">Services</a><ul class=\"gp-shell-sub\"><li><a href=\"https://thorburnlandscapes.co.uk/service/landscaping/\">Landscaping</a></li><li><a href=\"https://thorburnlandscapes.co.uk/service/garden-design/\">Garden Design</a></li><li><a href=\"https://thorburnlandscapes.co.uk/service/garden-maintenance/\">Garden Maintenance</a></li></ul></li><li class=\"gp-shell-navitem\"><a class=\"gp-shell-navlink\" href=\"https://thorburnlandscapes.co.uk/gallery-2/\">Gallery</a></li><li class=\"gp-shell-navitem\"><a class=\"gp-shell-navlink\" href=\"https://thorburnlandscapes.co.uk/locations/\">Locations</a></li><li class=\"gp-shell-navitem\"><a class=\"gp-shell-navlink\" href=\"https://thorburnlandscapes.co.uk/about/\">About</a></li><li class=\"gp-shell-navitem\"><a class=\"gp-shell-navlink\" href=\"https://thorburnlandscapes.co.uk/contact/\">Contact</a></li></ul></nav><a class=\"gp-shell-cta\" href=\"https://thorburnlandscapes.co.uk/contact/\">Contact us</a></div></div><div class=\"gp-shell-mobile\"><a class=\"gp-shell-mobile-phone\" aria-label=\"Call 020 8064 1303\" href=\"tel:02080641303\"><span class=\"gp-shell-icon gp-shell-icon-phone\" aria-hidden=\"true\"></span></a><details class=\"gp-shell-burger\"><summary class=\"gp-shell-burger-btn\" aria-label=\"Menu\"><span class=\"gp-shell-icon gp-shell-icon-menu\" aria-hidden=\"true\"></span></summary><ul class=\"gp-shell-mobile-menu\"><li><a href=\"https://thorburnlandscapes.co.uk/service/landscaping/\">Services</a></li><li><a href=\"https://thorburnlandscapes.co.uk/gallery-2/\">Gallery</a></li><li><a href=\"https://thorburnlandscapes.co.uk/locations/\">Locations</a></li><li><a href=\"https://thorburnlandscapes.co.uk/about/\">About</a></li><li><a href=\"https://thorburnlandscapes.co.uk/contact/\">Contact</a></li></ul></details></div></div></header>",
+    "footerHtml": "<footer class=\"gp-shell gp-shell-footer\"><div class=\"gp-shell-finner\"><div class=\"gp-shell-fbrand\"><a class=\"gp-shell-home\" href=\"https://thorburnlandscapes.co.uk/\"><img class=\"gp-shell-flogo\" src=\"https://thorburnlandscapes.co.uk/wp-content/uploads/2025/05/logo-header1.webp\" alt=\"Thorburn Landscapes\" loading=\"lazy\" decoding=\"async\"></a><p class=\"gp-shell-blurb\">Don’t hesitate to get in touch with us. We would love to discuss your project needs with you.</p><ul class=\"gp-shell-social\"><li><a href=\"https://www.instagram.com/thorburn.landscapes/\" rel=\"noopener noreferrer\">Instagram</a></li></ul></div><div class=\"gp-shell-fcol\"><h2 class=\"gp-shell-fhead\">Services</h2><ul><li><a href=\"https://thorburnlandscapes.co.uk/service/landscaping/\">Landscaping</a></li><li><a href=\"https://thorburnlandscapes.co.uk/service/garden-maintenance/\">Garden Maintenance</a></li><li><a href=\"https://thorburnlandscapes.co.uk/service/garden-design/\">Garden Design</a></li></ul></div><div class=\"gp-shell-fcol\"><h2 class=\"gp-shell-fhead\">Quick Link</h2><ul><li><a href=\"https://thorburnlandscapes.co.uk/gallery-2/\">Gallery</a></li><li><a href=\"https://thorburnlandscapes.co.uk/about/\">About Company</a></li><li><a href=\"https://thorburnlandscapes.co.uk/locations/\">Location</a></li></ul></div><div class=\"gp-shell-fcol\"><h2 class=\"gp-shell-fhead\">Contact</h2><ul class=\"gp-shell-fcontact\"><li class=\"gp-shell-fitem gp-shell-email\"><span class=\"gp-shell-icon gp-shell-icon-email\" aria-hidden=\"true\"></span><span class=\"gp-shell-label\">Email:</span> <a class=\"gp-shell-value\" href=\"mailto:info@thorburnlandscapes.co.uk\">info@thorburnlandscapes.co.uk</a></li><li class=\"gp-shell-fitem gp-shell-phone\"><span class=\"gp-shell-icon gp-shell-icon-phone\" aria-hidden=\"true\"></span><span class=\"gp-shell-label\">Call:</span> <a class=\"gp-shell-value\" href=\"tel:02080641303\">020 8064 1303</a></li><li class=\"gp-shell-fitem gp-shell-location\"><span class=\"gp-shell-icon gp-shell-icon-location\" aria-hidden=\"true\"></span><span class=\"gp-shell-label\">Location:</span> <a class=\"gp-shell-value\" href=\"https://thorburnlandscapes.co.uk/contact/\">Wimbledon, SW19 3NW</a></li></ul></div></div><div class=\"gp-shell-fbar\"><p>© 2026 Thorburn Landscapes</p></div></footer>",
+    "css": "@import url(\"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;600;700&display=swap\");\n.gp-shell{--gp-primary:#2A7D2E;--gp-text:#0B3D2C;--gp-header-bg:#EEEEE1;--gp-header-text:#0B3D2C;--gp-topbar-bg:#FFFFFF;--gp-topbar-text:#0B3D2C;--gp-topbar-accent:#2A7D2E;--gp-footer-bg:#0B3D2C;--gp-footer-text:#FFFFFF;--gp-btn-bg:#2A7D2E;--gp-btn-text:#FFFFFF;--gp-btn-radius:20px;font-family:\"Roboto\", system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;box-sizing:border-box;line-height:1.5}\n:where(.gp-shell) *,:where(.gp-shell) *::before,:where(.gp-shell) *::after{box-sizing:inherit}\n:where(.gp-shell) ul{list-style:none;margin:0;padding:0}\n:where(.gp-shell) a{color:inherit;text-decoration:none}\n:where(.gp-shell) img{max-width:100%;height:auto;display:block}\n.gp-shell-icon{display:inline-block;width:1em;height:1em;background:currentColor;flex:none;-webkit-mask:var(--gp-icon) center/contain no-repeat;mask:var(--gp-icon) center/contain no-repeat}\n.gp-shell-icon-phone{--gp-icon:url(\"data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M6.6%2010.8a15.1%2015.1%200%200%200%206.6%206.6l2.2-2.2a1%201%200%200%201%201-.25%2011.4%2011.4%200%200%200%203.6.57%201%201%200%200%201%201%201V20a1%201%200%200%201-1%201A17%2017%200%200%201%203%204a1%201%200%200%201%201-1h3.5a1%201%200%200%201%201%201c0%201.25.2%202.45.57%203.57a1%201%200%200%201-.25%201z'%2F%3E%3C%2Fsvg%3E\")}.gp-shell-icon-email{--gp-icon:url(\"data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M4%205h16a1%201%200%200%201%201%201v12a1%201%200%200%201-1%201H4a1%201%200%200%201-1-1V6a1%201%200%200%201%201-1zm8%207.2L4.8%207.4v.1L12%2012.3l7.2-4.8v-.1z'%2F%3E%3C%2Fsvg%3E\")}.gp-shell-icon-location{--gp-icon:url(\"data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M12%202a7%207%200%200%201%207%207c0%205.2-7%2013-7%2013S5%2014.2%205%209a7%207%200%200%201%207-7zm0%204.5A2.5%202.5%200%201%200%2012%2011.5%202.5%202.5%200%200%200%2012%206.5z'%2F%3E%3C%2Fsvg%3E\")}.gp-shell-icon-menu{--gp-icon:url(\"data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M3%206h18v2H3zm0%205h18v2H3zm0%205h18v2H3z'%2F%3E%3C%2Fsvg%3E\")}\n.gp-shell-header{background:var(--gp-header-bg);color:var(--gp-header-text);position:relative;z-index:20}\n.gp-shell-inner{display:flex;align-items:center;gap:24px;padding:10px 0 18px clamp(16px,11vw,210px);min-height:162px}\n.gp-shell-home{display:flex;align-items:center;flex:none}\n.gp-shell-logo{width:auto;max-height:80px;max-width:180px}\n.gp-shell-wordmark{font-family:\"Montserrat\", \"Roboto\", system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;font-weight:700;font-size:22px;color:var(--gp-primary)}\n.gp-shell-main{flex:1;display:flex;flex-direction:column;gap:18px;margin-left:clamp(24px,10.5vw,201px);min-width:0}\n.gp-shell-topbar{display:flex;align-items:center;gap:0;background:var(--gp-topbar-bg);border-radius:999px 0 0 999px;padding:17px 40px 17px 52px;font-size:16px;line-height:24px;color:var(--gp-topbar-text)}\n.gp-shell-topitem{display:flex;align-items:center;gap:8px;white-space:nowrap}\n.gp-shell-topitem+.gp-shell-topitem::before{content:\"\";width:5px;height:5px;border-radius:50%;background:var(--gp-topbar-accent);margin:0 48px 0 44px}\n.gp-shell-topitem .gp-shell-icon{color:var(--gp-topbar-accent);margin-right:4px}\n.gp-shell-label{color:var(--gp-topbar-accent);font-weight:500}\n.gp-shell-row{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-right:clamp(16px,3.2vw,62px)}\n.gp-shell-menu{display:flex;align-items:center;gap:40px;margin-left:clamp(0px,5vw,95px)}\n.gp-shell-navitem{position:relative}\n.gp-shell-navlink{font-family:\"Montserrat\", \"Roboto\", system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;font-weight:500;font-size:18px;color:var(--gp-header-text);display:inline-flex;align-items:center;gap:6px;padding:6px 0}\n.gp-shell-has-sub>.gp-shell-navlink::after{content:\"\";width:7px;height:7px;border:solid currentColor;border-width:0 2px 2px 0;transform:rotate(45deg) translateY(-3px)}\n.gp-shell-navlink:hover{color:var(--gp-primary)}\n.gp-shell-sub{display:none;position:absolute;top:100%;left:-16px;min-width:220px;background:#fff;box-shadow:0 12px 32px rgba(0,0,0,.12);border-radius:8px;padding:8px 0}\n.gp-shell-has-sub:hover .gp-shell-sub,.gp-shell-has-sub:focus-within .gp-shell-sub{display:block}\n.gp-shell-sub a{display:block;padding:8px 16px;color:var(--gp-text);font-size:15px}\n.gp-shell-sub a:hover{color:var(--gp-primary)}\n.gp-shell-cta{display:inline-flex;align-items:center;justify-content:center;background:var(--gp-btn-bg);color:var(--gp-btn-text)!important;border-radius:var(--gp-btn-radius);font-family:\"Montserrat\", \"Roboto\", system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;font-weight:600;font-size:16px;padding:16px 40px;white-space:nowrap}\n.gp-shell-cta:hover{filter:brightness(1.08)}\n.gp-shell-mobile{display:none;margin-left:auto;align-items:center;gap:8px}\n.gp-shell-mobile-phone,.gp-shell-burger-btn{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:var(--gp-btn-bg);color:var(--gp-btn-text);font-size:20px;cursor:pointer;list-style:none}\n.gp-shell-burger-btn::-webkit-details-marker{display:none}\n.gp-shell-burger-btn{background:transparent;color:var(--gp-header-text);font-size:26px}\n.gp-shell-burger{position:relative}\n.gp-shell-mobile-menu{position:absolute;right:0;top:52px;background:#fff;border-radius:12px;box-shadow:0 12px 32px rgba(0,0,0,.15);padding:8px 0;min-width:220px}\n.gp-shell-mobile-menu a{display:block;padding:12px 20px;font-family:\"Montserrat\", \"Roboto\", system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;font-weight:500;color:var(--gp-text)}\n@media (max-width:1280px){.gp-shell-main{margin-left:32px}.gp-shell-menu{gap:24px;margin-left:0}.gp-shell-topitem+.gp-shell-topitem::before{margin:0 20px}.gp-shell-topbar{padding:12px 24px}}\n@media (max-width:1024px){.gp-shell-inner{padding:10px 16px;min-height:0}.gp-shell-main{display:none}.gp-shell-mobile{display:flex}.gp-shell-logo{max-height:56px}}\n.gp-shell-footer{background:var(--gp-footer-bg);color:var(--gp-footer-text)}\n.gp-shell-finner{display:grid;grid-template-columns:1.4fr repeat(auto-fit,minmax(160px,1fr));gap:40px;max-width:1280px;margin:0 auto;padding:64px 24px 40px}\n.gp-shell-flogo{max-height:80px;width:auto;margin-bottom:16px}\n.gp-shell-blurb{margin:0 0 16px;opacity:.85;max-width:34ch}\n.gp-shell-social{display:flex;flex-wrap:wrap;gap:12px}\n.gp-shell-social a{border:1px solid currentColor;border-radius:999px;padding:4px 12px;font-size:14px;opacity:.9}\n.gp-shell-fhead{font-family:\"Montserrat\", \"Roboto\", system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;font-size:18px;font-weight:600;margin:0 0 16px;color:inherit}\n.gp-shell-fcol li{margin:0 0 10px}\n.gp-shell-fcol a{opacity:.85}.gp-shell-fcol a:hover{opacity:1;text-decoration:underline}\n.gp-shell-fitem{display:flex;gap:8px;align-items:center}\n.gp-shell-fitem .gp-shell-label{color:inherit;opacity:.7;font-weight:400}\n.gp-shell-fbar{border-top:1px solid color-mix(in srgb,currentColor 20%,transparent);text-align:center;padding:18px 16px;font-size:14px;opacity:.8}\n.gp-shell-fbar p{margin:0}\n@media (max-width:720px){.gp-shell-finner{grid-template-columns:1fr;gap:28px;padding:40px 16px 24px}}\n",
+    "navLinks": [
+      {
+        "label": "Services",
+        "href": "https://thorburnlandscapes.co.uk/service/landscaping/"
+      },
+      {
+        "label": "Gallery",
+        "href": "https://thorburnlandscapes.co.uk/gallery-2/"
+      },
+      {
+        "label": "Locations",
+        "href": "https://thorburnlandscapes.co.uk/locations/"
+      },
+      {
+        "label": "About",
+        "href": "https://thorburnlandscapes.co.uk/about/"
+      },
+      {
+        "label": "Contact",
+        "href": "https://thorburnlandscapes.co.uk/contact/"
+      }
+    ],
+    "screenshotKey": "intel/thorburn-landscapes/shell/homepage.jpg"
+  },
+  "services": [
+    {
+      "key": "landscaping",
+      "label": "Landscaping",
+      "url": "https://thorburnlandscapes.co.uk/service/landscaping/"
+    },
+    {
+      "key": "garden_design",
+      "label": "Garden Design",
+      "url": "https://thorburnlandscapes.co.uk/service/garden-design/"
+    },
+    {
+      "key": "garden_maintenance",
+      "label": "Garden Maintenance",
+      "url": "https://thorburnlandscapes.co.uk/service/garden-maintenance/"
+    }
+  ],
+  "areas": [
+    {
+      "name": "Wimbledon",
+      "outward": "SW19"
+    },
+    {
+      "name": "Tooting",
+      "outward": null
+    },
+    {
+      "name": "Streatham",
+      "outward": "SW16"
+    },
+    {
+      "name": "Brixton",
+      "outward": "SW9"
+    },
+    {
+      "name": "Tulse Hill",
+      "outward": "SE27"
+    },
+    {
+      "name": "Clapham",
+      "outward": "SW4"
+    },
+    {
+      "name": "Chelsea",
+      "outward": "SW3"
+    },
+    {
+      "name": "Kensington",
+      "outward": "W8"
+    },
+    {
+      "name": "Richmond",
+      "outward": null
+    },
+    {
+      "name": "Dulwich",
+      "outward": "SE21"
+    },
+    {
+      "name": "Chiswick",
+      "outward": "W4"
+    },
+    {
+      "name": "Fulham",
+      "outward": "SW6"
+    },
+    {
+      "name": "Battersea",
+      "outward": "SW11"
+    },
+    {
+      "name": "Putney",
+      "outward": "SW15"
+    },
+    {
+      "name": "Earlsfield",
+      "outward": "SW18"
+    },
+    {
+      "name": "Raynes Park",
+      "outward": "SW20"
+    },
+    {
+      "name": "New Malden",
+      "outward": "KT3"
+    },
+    {
+      "name": "Kingston upon Thames",
+      "outward": "KT1"
+    },
+    {
+      "name": "Barnes",
+      "outward": "SW13"
+    },
+    {
+      "name": "Kew",
+      "outward": "TW9"
+    }
+  ],
+  "cta": {
+    "text": "Get a Quote",
+    "url": "https://thorburnlandscapes.co.uk/contact/"
+  },
+  "badges": [
+    {
+      "body": "which",
+      "name": "Which? Trusted Trader",
+      "verified": true,
+      "status": "verified",
+      "profileUrl": "https://trustedtraders.which.co.uk/businesses/thorburn-landscapes-ltd/",
+      "evidence": [
+        {
+          "url": "https://trustedtraders.which.co.uk/businesses/thorburn-landscapes-ltd/",
+          "note": "Listed on Which? Trusted Traders (Matched on name, phone, website)"
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/",
+          "note": "Logo shown on your website"
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/",
+          "note": "Mentioned on your website"
+        }
+      ],
+      "imageUrl": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/05/Logo-250-x-150-9.png",
+      "imageKey": "intel/thorburn-landscapes/badges/which-trusted-trader.png",
+      "rating": 5,
+      "reviewCount": 9
+    },
+    {
+      "body": "trustmark",
+      "name": "TrustMark",
+      "verified": true,
+      "status": "verified",
+      "profileUrl": "https://www.trustmark.org.uk/firms/Thorburn%20Landscapes-999505-SW19%203NW?id=80d35511-7f0d-43b9-b8ee-f460b934a09d",
+      "evidence": [
+        {
+          "url": "https://www.trustmark.org.uk/firms/Thorburn%20Landscapes-999505-SW19%203NW?id=80d35511-7f0d-43b9-b8ee-f460b934a09d",
+          "note": "Profile on TrustMark (Matched on name, website, postcode)"
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/",
+          "note": "Logo shown on your website"
+        }
+      ],
+      "imageUrl": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/05/Logo-250-x-150.png",
+      "imageKey": "intel/thorburn-landscapes/badges/trustmark.png",
+      "rating": null,
+      "reviewCount": null
+    },
+    {
+      "body": "checkatrade",
+      "name": "Checkatrade",
+      "verified": true,
+      "status": "verified",
+      "profileUrl": "https://www.checkatrade.com/trades/thorburnlandscapesltd",
+      "evidence": [
+        {
+          "url": "https://www.checkatrade.com/trades/thorburnlandscapesltd",
+          "note": "Profile on Checkatrade (Same name and area; no phone or website on the page to confirm); linked from the business's Google listing"
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/",
+          "note": "Logo shown on your website"
+        },
+        {
+          "url": "https://trustedtraders.which.co.uk/businesses/thorburn-landscapes-ltd/",
+          "note": "Mentioned on Which? Trusted Traders"
+        }
+      ],
+      "imageUrl": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/05/Logo-250-x-150-4.png",
+      "imageKey": "intel/thorburn-landscapes/badges/checkatrade.png",
+      "rating": null,
+      "reviewCount": 27
+    },
+    {
+      "body": "apl",
+      "name": "Association of Professional Landscapers",
+      "verified": true,
+      "status": "verified",
+      "profileUrl": "https://www.trustmark.org.uk/firms/Thorburn%20Landscapes-999505-SW19%203NW?id=80d35511-7f0d-43b9-b8ee-f460b934a09d",
+      "evidence": [
+        {
+          "url": "https://www.trustmark.org.uk/firms/Thorburn%20Landscapes-999505-SW19%203NW?id=80d35511-7f0d-43b9-b8ee-f460b934a09d",
+          "note": "TrustMark lists Association of Professional Landscapers as this business's scheme provider (licence 999505)"
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/",
+          "note": "Logo shown on your website"
+        },
+        {
+          "url": "https://www.checkatrade.com/trades/thorburnlandscapesltd",
+          "note": "Mentioned on Checkatrade"
+        },
+        {
+          "url": "https://trustedtraders.which.co.uk/businesses/thorburn-landscapes-ltd/",
+          "note": "Mentioned on Which? Trusted Traders"
+        }
+      ],
+      "imageUrl": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/05/Logo-250-x-150-7.png",
+      "imageKey": "intel/thorburn-landscapes/badges/association-of-professional-landscapers.png",
+      "rating": null,
+      "reviewCount": null
+    },
+    {
+      "body": "hta",
+      "name": "HTA Member",
+      "verified": false,
+      "status": "claimed",
+      "profileUrl": null,
+      "evidence": [
+        {
+          "url": "https://thorburnlandscapes.co.uk/",
+          "note": "Logo shown on your website"
+        },
+        {
+          "url": "https://www.checkatrade.com/trades/thorburnlandscapesltd",
+          "note": "Mentioned on Checkatrade"
+        },
+        {
+          "url": "https://trustedtraders.which.co.uk/businesses/thorburn-landscapes-ltd/",
+          "note": "Mentioned on Which? Trusted Traders"
+        }
+      ],
+      "imageUrl": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/05/Logo-250-x-150-3.png",
+      "imageKey": "intel/thorburn-landscapes/badges/hta-member.png",
+      "rating": null,
+      "reviewCount": null
+    },
+    {
+      "body": "safecontractor",
+      "name": "SafeContractor Approved",
+      "verified": false,
+      "status": "claimed",
+      "profileUrl": null,
+      "evidence": [
+        {
+          "url": "https://thorburnlandscapes.co.uk/",
+          "note": "Logo shown on your website"
+        }
+      ],
+      "imageUrl": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/05/safecontractor-throburn-landscape.png",
+      "imageKey": "intel/thorburn-landscapes/badges/safecontractor-approved.png",
+      "rating": null,
+      "reviewCount": null
+    },
+    {
+      "body": "other",
+      "name": "Jacksons Fencing Approved Installer",
+      "verified": false,
+      "status": "claimed",
+      "profileUrl": null,
+      "evidence": [
+        {
+          "url": "https://thorburnlandscapes.co.uk/",
+          "note": "Logo shown on your website"
+        }
+      ],
+      "imageUrl": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/05/Logo-250-x-150-6.png",
+      "imageKey": "intel/thorburn-landscapes/badges/jacksons-fencing-approved-installer.png",
+      "rating": null,
+      "reviewCount": null
+    }
+  ],
+  "reviews": {
+    "sources": [
+      {
+        "provider": "checkatrade",
+        "url": "https://www.checkatrade.com/trades/thorburnlandscapesltd",
+        "rating": null,
+        "count": 27,
+        "matched": {
+          "by": [
+            "name"
+          ],
+          "confidence": 0.8
+        }
+      },
+      {
+        "provider": "which",
+        "url": "https://trustedtraders.which.co.uk/businesses/thorburn-landscapes-ltd/",
+        "rating": 5,
+        "count": 9,
+        "matched": {
+          "by": [
+            "name",
+            "phone",
+            "website"
+          ],
+          "confidence": 1
+        }
+      },
+      {
+        "provider": "google",
+        "url": "https://www.google.com/maps/search/?api=1&hl=en&query=Thorburn%20Landscapes%20SW19%203NW",
+        "rating": 5,
+        "count": 46,
+        "matched": {
+          "by": [
+            "name",
+            "website"
+          ],
+          "confidence": 0.75
+        }
+      }
+    ],
+    "featured": [
+      {
+        "provider": "which",
+        "author": "Customer in Greater London",
+        "text": "I had a range of services from Thorburn Landscapes, including re-turfing the lawn, tidying and planting in the borders, reducing a patio wall (including rendering) and re-grouting the patio. Firstly, I’m really pleased with the work, I think it looks great. Rui and the team were always very friendly, polite and professional - making sure we were up to date with what the plan was for each day and providing clear instructions on post care maintenance (which was also followed up over email by the office). The work was quoted to take 7 days and they finished under budget in 5 days. I had one query following completion about the finish on the patio tiles, which was rectified quickly. Would recommend and would definitely use again.",
+        "rating": 5,
+        "date": "2026-07-16",
+        "url": "https://trustedtraders.which.co.uk/businesses/thorburn-landscapes-ltd/"
+      },
+      {
+        "provider": "checkatrade",
+        "author": "Verified reviewer",
+        "text": "Thorburn landscapes did a great job and my garden is just how I want it. I met with Stephen to discuss some ideas I had and came up with a great plan. The team was very friendly, hard working and diligent throughout the project. The cost worked out a bit more than I was hoping but the finished garden is amazing and would not hesitate to recommend them.",
+        "rating": 5,
+        "date": "2019-12-02",
+        "url": "https://www.checkatrade.com/trades/thorburnlandscapesltd"
+      },
+      {
+        "provider": "which",
+        "author": "Customer in Greater London",
+        "text": "Thorburn Landscapes recently laid a new lawn for me in North Kingston. The work was carried out with great efficiency by Flavio and Rui who completed it in the quoted two days with exemplary commitment, courtesy and professionalism. We are delighted with the result and we consider that both they and the lawn itself are a credit to Thorburn Landscapes.",
+        "rating": 5,
+        "date": "2025-10-29",
+        "url": "https://trustedtraders.which.co.uk/businesses/thorburn-landscapes-ltd/"
+      },
+      {
+        "provider": "checkatrade",
+        "author": "Verified reviewer",
+        "text": "I am so pleased that I discovered Stephen. The transformation in our garden is incredible. I would never have imagined that that scruffy, sloping bit of our garden could become a beautiful place to sit and to entertain. He totally exceeded our expectations of what was possible. The team who worked in our garden were extremely polite, non-invasive and helpful and the standard of their work is very high with so much care and attention to detail. I would have no hesitation in recommending this company to anyone. We are delighted.",
+        "rating": 5,
+        "date": "2019-10-15",
+        "url": "https://www.checkatrade.com/trades/thorburnlandscapesltd"
+      },
+      {
+        "provider": "which",
+        "author": "Customer in Greater London",
+        "text": "I cannot praise Stephen and his men highly enough. His suggestions for repurposing the end of my garden were perfect and I am delighted with the result. They completed the job well within time and within budget. They were very friendly, polite and considerate. They worked very hard, there was no radio and not a sign of a mobile phone! Everything left tidy at the end of the day. It was very easy to communicate with Stephen or his secretary. He was most persistent in following up missing piece on the summerhouse. I would strongly recommend his company.",
+        "rating": 5,
+        "date": "2025-08-11",
+        "url": "https://trustedtraders.which.co.uk/businesses/thorburn-landscapes-ltd/"
+      },
+      {
+        "provider": "checkatrade",
+        "author": "Verified reviewer",
+        "text": "Very easy to communicate with Thorburn over email (which is preferable for me) - was the first time we've used them, our front and back garden needed a thorough clean up. We were away on the day, but coming home to the work being done as agreed was great. Even though I gave a detailed description of what we required, they said they would also tidy up anything else they see that needs done on the day. This was done and within their estimate. We have already booked to use them again, purely because they are so easy to deal with - but book early, they're busy and I'm not surprised.",
+        "rating": 5,
+        "date": "2018-11-23",
+        "url": "https://www.checkatrade.com/trades/thorburnlandscapesltd"
+      }
+    ],
+    "aggregate": {
+      "rating": 5,
+      "count": 55
+    }
+  },
+  "projects": [
+    {
+      "title": "Kingston Garden Update: Entertainment Garden",
+      "url": "https://thorburnlandscapes.co.uk/portfolio/kingston-garden-update-entertainment-garden/",
+      "category": "Landscaping & Garden Design",
+      "area": "Coombe Rise / Kingston / New Maiden",
+      "summary": "This garden in Coombe Rise (Kingston / New Malden) featured tired old decking and an underused layout that lacked structure and charm. The space needed a contemporary refresh to create a more functional and sociable environment for entertaining.",
+      "images": [
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/After-42.jpg",
+          "key": "intel/thorburn-landscapes/projects/kingston-garden-update-entertainment-gar/ea21ab6d0a3c.jpg",
+          "alt": null,
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/Before-14-scaled.jpg",
+          "key": "intel/thorburn-landscapes/projects/kingston-garden-update-entertainment-gar/8164f914b7fe.jpg",
+          "alt": "Before (14)",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/Before-24-scaled.jpg",
+          "key": "intel/thorburn-landscapes/projects/kingston-garden-update-entertainment-gar/370f8eca20f4.jpg",
+          "alt": "Before (24)",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/Before-30-scaled.jpg",
+          "key": "intel/thorburn-landscapes/projects/kingston-garden-update-entertainment-gar/b919bbda11d3.jpg",
+          "alt": "Before (30)",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/After-4-1.jpg",
+          "key": "intel/thorburn-landscapes/projects/kingston-garden-update-entertainment-gar/0c753116a943.jpg",
+          "alt": "After (4)",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/After-21.jpg",
+          "key": "intel/thorburn-landscapes/projects/kingston-garden-update-entertainment-gar/23aabebc5e36.jpg",
+          "alt": "After (21)",
+          "width": 1600,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "title": "Courtyard Garden Renovation in Clapham/Battersea: Full Garden Design",
+      "url": "https://thorburnlandscapes.co.uk/portfolio/courtyard-garden-renovation-in-clapham-battersea-full-garden-design/",
+      "category": "Landscaping & Garden Design",
+      "area": "Clapham / Battersea",
+      "summary": "This Clapham/Battersea courtyard had become overgrown, neglected, and uninviting. With old fences, no clear seating areas, and a lack of structure, the garden was in need of a complete transformation to create a welcoming space for both relaxation and entertaining.",
+      "images": [
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/after-3-scaled.jpg",
+          "key": "intel/thorburn-landscapes/projects/courtyard-garden-renovation-in-clapham-b/082b60287660.jpg",
+          "alt": null,
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/Before-1-1.jpg",
+          "key": "intel/thorburn-landscapes/projects/courtyard-garden-renovation-in-clapham-b/44ca55bc9844.jpg",
+          "alt": "User comments",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/Before-2-1.jpg",
+          "key": "intel/thorburn-landscapes/projects/courtyard-garden-renovation-in-clapham-b/be1970f0c730.jpg",
+          "alt": "User comments",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/Before-3-1.jpg",
+          "key": "intel/thorburn-landscapes/projects/courtyard-garden-renovation-in-clapham-b/ca775907c47d.jpg",
+          "alt": "User comments",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/after-1-scaled-e1749128692309.jpg",
+          "key": "intel/thorburn-landscapes/projects/courtyard-garden-renovation-in-clapham-b/8cf6a6707951.jpg",
+          "alt": "user comment",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/after-2-1-scaled.jpg",
+          "key": "intel/thorburn-landscapes/projects/courtyard-garden-renovation-in-clapham-b/fd16b1d3d2c0.jpg",
+          "alt": "user comment",
+          "width": 1600,
+          "height": 900
+        }
+      ]
+    },
+    {
+      "title": "Garden Renovation in Wimbledon: Full Garden Design & Landscpaing",
+      "url": "https://thorburnlandscapes.co.uk/portfolio/wimbledon-landscaping-full-garden-deisng/",
+      "category": "Landscaping & Garden Design",
+      "area": "Wimbledon",
+      "summary": "This Wimbledon garden had become a tired and outdated space, lacking structure, flow, and purpose. The owners were looking for a complete garden transformation that would not only update the space, but also create a more enjoyable, relaxing environment to spend time in.",
+      "images": [
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/Before-2.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-renovation-in-wimbledon-full-gard/46c87424fa47.jpg",
+          "alt": "User comments",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/Before-3.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-renovation-in-wimbledon-full-gard/82ae8fffddc5.jpg",
+          "alt": "User comments",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/Before-4.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-renovation-in-wimbledon-full-gard/6c021b7f559f.jpg",
+          "alt": "User comments",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/Before-5.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-renovation-in-wimbledon-full-gard/d8316915f812.jpg",
+          "alt": "User comments",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/05/John-and-Anne-3.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-renovation-in-wimbledon-full-gard/08efc13674ed.jpg",
+          "alt": "John-and-Anne-3.jpg",
+          "width": 1416,
+          "height": 1062
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/05/After-10.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-renovation-in-wimbledon-full-gard/bf7554aa4591.jpg",
+          "alt": "After (10)",
+          "width": 1600,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "title": "Garden Design Wimbledon",
+      "url": "https://thorburnlandscapes.co.uk/portfolio/garden-design-wimbledon/",
+      "category": "Landscaping & Garden Design",
+      "area": "Wimbledon",
+      "summary": "This Wimbledon garden had become overgrown and out of control, lacking structure, purpose, and year-round interest. It needed a complete garden redesign to create a more usable, beautiful outdoor space that would feel connected to nature and be enjoyable throughout the seasons.",
+      "images": [
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/IMG_20210910_100412_860.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-design-wimbledon/4dbf77aca526.jpg",
+          "alt": null,
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/IMG_20210910_100412_527.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-design-wimbledon/f0ef90e59c14.jpg",
+          "alt": "IMG_20210910_100412_527",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/IMG_20210910_100412_725.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-design-wimbledon/fae5d3b6c491.jpg",
+          "alt": "IMG_20210910_100412_725",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/IMG-20210910-WA0010.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-design-wimbledon/e70da742cc0b.jpg",
+          "alt": "IMG-20210910-WA0010",
+          "width": 1599,
+          "height": 1200
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/IMG_20210910_100412_762.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-design-wimbledon/2840df07f057.jpg",
+          "alt": "IMG_20210910_100412_762",
+          "width": 768,
+          "height": 768
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2025/06/IMG_20210910_100412_860-1.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-design-wimbledon/35f8c48965a1.jpg",
+          "alt": "IMG_20210910_100412_860",
+          "width": 1080,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "title": "Garden maintenance",
+      "url": "https://thorburnlandscapes.co.uk/gallery-2/",
+      "category": "Garden maintenance",
+      "area": null,
+      "summary": null,
+      "images": [
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2019/04/Maintenance-6-1.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-maintenance/cb1da835a4e0.jpg",
+          "alt": null,
+          "width": 1416,
+          "height": 1062
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2019/04/Maintenance-6-2.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-maintenance/368e7198ca96.jpg",
+          "alt": null,
+          "width": 1416,
+          "height": 1062
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2019/04/Maintenance-6-3.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-maintenance/553d594340e7.jpg",
+          "alt": null,
+          "width": 1416,
+          "height": 1062
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2019/04/Maintenance-3-2.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-maintenance/cdd1611cfd3e.jpg",
+          "alt": null,
+          "width": 1416,
+          "height": 1062
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2019/04/Maintenance-3-3.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-maintenance/73b5fa21d0d5.jpg",
+          "alt": null,
+          "width": 1416,
+          "height": 1062
+        },
+        {
+          "url": "https://thorburnlandscapes.co.uk/wp-content/uploads/2019/04/Maintenance-4-1.jpg",
+          "key": "intel/thorburn-landscapes/projects/garden-maintenance/d007998bb36f.jpg",
+          "alt": null,
+          "width": 1416,
+          "height": 1062
+        }
+      ]
+    }
+  ],
+  "social": [
+    {
+      "network": "instagram",
+      "url": "https://www.instagram.com/thorburn.landscapes/"
+    },
+    {
+      "network": "facebook",
+      "url": "https://www.facebook.com/p/Thorburn-Landscapes-Ltd-100054484118566/"
+    }
+  ],
+  "warnings": [
+    "Please confirm your company: Thorburn Landscapes Limited (09013186) on Companies House.",
+    "We imported your Google star rating and review count. Connect your Google Business Profile to show the Google reviews themselves.",
+    "Checkatrade shows 27 reviews but no current overall rating, so it is not counted in your average.",
+    "We couldn't confirm HTA Member, SafeContractor Approved on their own sites. Add your membership link to show them as verified."
+  ],
+  "rejected": [
+    {
+      "url": "https://www.facebook.com/ThorburnGardenServices/",
+      "reason": "Facebook: Different business: the name \"Thorburn Garden Services\" is not \"Thorburn Landscapes\"; it is based in Duns; no matching phone, website, postcode or company number."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "version": "7.2",
+  "screens": [
+    {
+      "id": "FEELING",
+      "title": "Today's visit",
+      "layout": {
+        "type": "SingleColumnLayout",
+        "children": [
+          {
+            "type": "TextHeading",
+            "text": "How does the garden look?"
+          },
+          {
+            "type": "RadioButtonsGroup",
+            "name": "feeling",
+            "label": "One tap",
+            "required": true,
+            "data-source": [
+              {
+                "id": "great",
+                "title": "Looks great"
+              },
+              {
+                "id": "fine",
+                "title": "Mostly fine"
+              },
+              {
+                "id": "issue",
+                "title": "Something's not right"
+              }
+            ]
+          },
+          {
+            "type": "Footer",
+            "label": "Continue",
+            "on-click-action": {
+              "name": "navigate",
+              "next": {
+                "type": "screen",
+                "name": "DETAILS"
+              },
+              "payload": {}
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "DETAILS",
+      "title": "Today's visit",
+      "terminal": true,
+      "success": true,
+      "layout": {
+        "type": "SingleColumnLayout",
+        "children": [
+          {
+            "type": "TextHeading",
+            "text": "Anything we should look at?"
+          },
+          {
+            "type": "TextBody",
+            "text": "Leave blank if all is well."
+          },
+          {
+            "type": "CheckboxGroup",
+            "name": "issues",
+            "label": "What to look at",
+            "required": false,
+            "data-source": [
+              {
+                "id": "lawn",
+                "title": "Lawn"
+              },
+              {
+                "id": "hedges",
+                "title": "Hedges"
+              },
+              {
+                "id": "borders",
+                "title": "Borders and beds"
+              },
+              {
+                "id": "tidy",
+                "title": "Left untidy"
+              },
+              {
+                "id": "missed",
+                "title": "Something was missed"
+              },
+              {
+                "id": "other",
+                "title": "Something else"
+              }
+            ]
+          },
+          {
+            "type": "TextArea",
+            "name": "note",
+            "label": "Note",
+            "required": false,
+            "max-length": 800,
+            "helper-text": "e.g. please leave the foxgloves to seed"
+          },
+          {
+            "type": "Footer",
+            "label": "Send",
+            "on-click-action": {
+              "name": "complete",
+              "payload": {
+                "feeling": "${screen.FEELING.form.feeling}",
+                "issues": "${screen.DETAILS.form.issues}",
+                "note": "${screen.DETAILS.form.note}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

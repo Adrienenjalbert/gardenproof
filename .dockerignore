@@ -1,0 +1,26 @@
+# Built inside the image
+node_modules
+.next
+.next-*
+*.tsbuildinfo
+next-env.d.ts
+
+# Local runtime state (databases, media, test storage): never ship it
+.data
+.env
+.env.*
+
+# Not needed at runtime
+.git
+.github
+review
+docs
+tests
+evals
+wordpress
+coverage
+playwright-report
+test-results
+**/*.test.ts
+Dockerfile
+.dockerignore

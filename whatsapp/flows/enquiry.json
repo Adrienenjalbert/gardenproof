@@ -1,0 +1,442 @@
+{
+  "version": "7.2",
+  "screens": [
+    {
+      "id": "SERVICES",
+      "title": "Your garden",
+      "layout": {
+        "type": "SingleColumnLayout",
+        "children": [
+          {
+            "type": "TextHeading",
+            "text": "What would you like done?"
+          },
+          {
+            "type": "TextBody",
+            "text": "Pick as many as you like."
+          },
+          {
+            "type": "CheckboxGroup",
+            "name": "services",
+            "label": "Choose all that apply",
+            "required": true,
+            "min-selected-items": 1,
+            "data-source": [
+              {
+                "id": "full_design",
+                "title": "Garden design & build"
+              },
+              {
+                "id": "patio_paving",
+                "title": "Patios & paving"
+              },
+              {
+                "id": "fencing",
+                "title": "Fencing & screening"
+              },
+              {
+                "id": "lawn_turf",
+                "title": "Lawns & turfing"
+              },
+              {
+                "id": "planting",
+                "title": "Planting schemes"
+              },
+              {
+                "id": "structures",
+                "title": "Garden structures"
+              },
+              {
+                "id": "maintenance",
+                "title": "Garden maintenance"
+              },
+              {
+                "id": "unsure",
+                "title": "Not sure yet",
+                "description": "Happy to talk it through"
+              }
+            ]
+          },
+          {
+            "type": "Footer",
+            "label": "Continue",
+            "on-click-action": {
+              "name": "navigate",
+              "next": {
+                "type": "screen",
+                "name": "SIZE"
+              },
+              "payload": {}
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SIZE",
+      "title": "Your garden",
+      "layout": {
+        "type": "SingleColumnLayout",
+        "children": [
+          {
+            "type": "TextHeading",
+            "text": "How big is the garden?"
+          },
+          {
+            "type": "RadioButtonsGroup",
+            "name": "size",
+            "label": "Roughly",
+            "required": true,
+            "data-source": [
+              {
+                "id": "small",
+                "title": "Small",
+                "description": "Courtyard or town garden, up to 50 m²"
+              },
+              {
+                "id": "medium",
+                "title": "Medium",
+                "description": "Family garden, 50–150 m²"
+              },
+              {
+                "id": "large",
+                "title": "Large",
+                "description": "Over 150 m²"
+              },
+              {
+                "id": "unsure",
+                "title": "Not sure",
+                "description": "We'll measure up"
+              }
+            ]
+          },
+          {
+            "type": "Footer",
+            "label": "Continue",
+            "on-click-action": {
+              "name": "navigate",
+              "next": {
+                "type": "screen",
+                "name": "BUDGET"
+              },
+              "payload": {}
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "BUDGET",
+      "title": "Budget",
+      "layout": {
+        "type": "SingleColumnLayout",
+        "children": [
+          {
+            "type": "TextHeading",
+            "text": "Roughly what budget do you have in mind?"
+          },
+          {
+            "type": "TextBody",
+            "text": "It helps us suggest ideas that fit. It's not a commitment."
+          },
+          {
+            "type": "RadioButtonsGroup",
+            "name": "budget",
+            "label": "Budget",
+            "required": false,
+            "data-source": [
+              {
+                "id": "under_10k",
+                "title": "Under £10k"
+              },
+              {
+                "id": "10_20k",
+                "title": "£10k – £20k"
+              },
+              {
+                "id": "20_40k",
+                "title": "£20k – £40k"
+              },
+              {
+                "id": "40_75k",
+                "title": "£40k – £75k"
+              },
+              {
+                "id": "75k_plus",
+                "title": "£75k +"
+              },
+              {
+                "id": "guidance",
+                "title": "I'd like guidance"
+              }
+            ]
+          },
+          {
+            "type": "TextBody",
+            "text": "Only after garden maintenance? Tell us how often instead."
+          },
+          {
+            "type": "Dropdown",
+            "name": "frequency",
+            "label": "How often",
+            "required": false,
+            "data-source": [
+              {
+                "id": "weekly",
+                "title": "Every week"
+              },
+              {
+                "id": "fortnightly",
+                "title": "Every two weeks"
+              },
+              {
+                "id": "monthly",
+                "title": "Once a month"
+              },
+              {
+                "id": "seasonal",
+                "title": "Seasonal visits",
+                "description": "Spring, summer and autumn"
+              },
+              {
+                "id": "one_off",
+                "title": "A one-off tidy"
+              }
+            ]
+          },
+          {
+            "type": "Footer",
+            "label": "Continue",
+            "on-click-action": {
+              "name": "navigate",
+              "next": {
+                "type": "screen",
+                "name": "TIMING"
+              },
+              "payload": {}
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "TIMING",
+      "title": "Timing",
+      "layout": {
+        "type": "SingleColumnLayout",
+        "children": [
+          {
+            "type": "TextHeading",
+            "text": "When would you like it done?"
+          },
+          {
+            "type": "RadioButtonsGroup",
+            "name": "timing",
+            "label": "When",
+            "required": true,
+            "data-source": [
+              {
+                "id": "asap",
+                "title": "As soon as possible"
+              },
+              {
+                "id": "3_months",
+                "title": "In the next 3 months"
+              },
+              {
+                "id": "6_months",
+                "title": "In 3 to 6 months"
+              },
+              {
+                "id": "planning",
+                "title": "Just planning ahead"
+              },
+              {
+                "id": "date",
+                "title": "By a certain date"
+              }
+            ]
+          },
+          {
+            "type": "DatePicker",
+            "name": "date",
+            "label": "Date (if you have one)",
+            "required": false,
+            "helper-text": "Only if you chose “By a certain date”"
+          },
+          {
+            "type": "Footer",
+            "label": "Continue",
+            "on-click-action": {
+              "name": "navigate",
+              "next": {
+                "type": "screen",
+                "name": "PLACE"
+              },
+              "payload": {}
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "PLACE",
+      "title": "Where",
+      "layout": {
+        "type": "SingleColumnLayout",
+        "children": [
+          {
+            "type": "TextHeading",
+            "text": "What's the garden's postcode?"
+          },
+          {
+            "type": "TextBody",
+            "text": "So we know it's in our patch. We never publish addresses."
+          },
+          {
+            "type": "TextInput",
+            "name": "postcode",
+            "label": "Postcode",
+            "input-type": "text",
+            "required": true,
+            "max-chars": 8,
+            "helper-text": "e.g. SW19 5AB"
+          },
+          {
+            "type": "Footer",
+            "label": "Continue",
+            "on-click-action": {
+              "name": "navigate",
+              "next": {
+                "type": "screen",
+                "name": "CONTACT"
+              },
+              "payload": {}
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "CONTACT",
+      "title": "About you",
+      "layout": {
+        "type": "SingleColumnLayout",
+        "children": [
+          {
+            "type": "TextHeading",
+            "text": "Who should we speak to?"
+          },
+          {
+            "type": "TextInput",
+            "name": "firstName",
+            "label": "First name",
+            "input-type": "text",
+            "required": true,
+            "max-chars": 60
+          },
+          {
+            "type": "TextInput",
+            "name": "lastName",
+            "label": "Last name",
+            "input-type": "text",
+            "required": false,
+            "max-chars": 60
+          },
+          {
+            "type": "OptIn",
+            "name": "consent",
+            "label": "Thorburn Landscapes may contact me by phone or WhatsApp about this enquiry.",
+            "required": true
+          },
+          {
+            "type": "Footer",
+            "label": "Continue",
+            "on-click-action": {
+              "name": "navigate",
+              "next": {
+                "type": "screen",
+                "name": "CALL"
+              },
+              "payload": {}
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "CALL",
+      "title": "Best time to call",
+      "terminal": true,
+      "success": true,
+      "layout": {
+        "type": "SingleColumnLayout",
+        "children": [
+          {
+            "type": "TextHeading",
+            "text": "When's best for a quick call?"
+          },
+          {
+            "type": "CheckboxGroup",
+            "name": "callDays",
+            "label": "Days",
+            "required": true,
+            "min-selected-items": 1,
+            "data-source": [
+              {
+                "id": "weekdays",
+                "title": "Weekdays"
+              },
+              {
+                "id": "saturday",
+                "title": "Saturday"
+              }
+            ]
+          },
+          {
+            "type": "CheckboxGroup",
+            "name": "callWindows",
+            "label": "Times",
+            "required": true,
+            "min-selected-items": 1,
+            "data-source": [
+              {
+                "id": "morning",
+                "title": "Morning (8–12)"
+              },
+              {
+                "id": "afternoon",
+                "title": "Afternoon (12–5)"
+              },
+              {
+                "id": "evening",
+                "title": "Early evening (5–7)"
+              }
+            ]
+          },
+          {
+            "type": "Footer",
+            "label": "Send enquiry",
+            "on-click-action": {
+              "name": "complete",
+              "payload": {
+                "services": "${screen.SERVICES.form.services}",
+                "size": "${screen.SIZE.form.size}",
+                "budget": "${screen.BUDGET.form.budget}",
+                "frequency": "${screen.BUDGET.form.frequency}",
+                "timing": "${screen.TIMING.form.timing}",
+                "date": "${screen.TIMING.form.date}",
+                "postcode": "${screen.PLACE.form.postcode}",
+                "firstName": "${screen.CONTACT.form.firstName}",
+                "lastName": "${screen.CONTACT.form.lastName}",
+                "consent": "${screen.CONTACT.form.consent}",
+                "callDays": "${screen.CALL.form.callDays}",
+                "callWindows": "${screen.CALL.form.callWindows}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

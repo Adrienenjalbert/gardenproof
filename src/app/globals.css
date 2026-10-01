@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* Brand tokens (Thorburn olive). Light UI by design: the dashboard is used on phones outdoors. */
+:root {
+  --background: #fbfaf6;
+  --foreground: #1f2117;
+  --olive: #464a33;
+  --olive-dark: #2f3222;
+  --olive-50: #f3f4ec;
+  --olive-100: #e6e8d6;
+  --leaf: #b7c24a;
+  --muted: #6b6e5c;
+  --line: #e4e2d8;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-olive: var(--olive);
+  --color-olive-dark: var(--olive-dark);
+  --color-olive-50: var(--olive-50);
+  --color-olive-100: var(--olive-100);
+  --color-leaf: var(--leaf);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --font-sans: var(--font-sans-base), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display), Georgia, serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}

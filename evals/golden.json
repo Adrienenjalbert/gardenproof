@@ -1,0 +1,463 @@
+{
+  "version": 2,
+  "description": "Golden set of realistic Thorburn-style jobs. Briefs read like crew voice notes. Consent variants cover full consent, no response, refused photos, low rating, area-only, name-only, quote NOT consented (photos yes), withdrawn consent, a flagged photo that is not cleared, and thin input (no brief).",
+  "cases": [
+    {
+      "id": "patio-putney-full-consent",
+      "scenario": "5-star testimonial, all consents given",
+      "service": "patio_paving",
+      "postcode": "SW15 6PR",
+      "area": "Putney",
+      "customer": {
+        "firstName": "Sophie",
+        "lastName": "Ashworth"
+      },
+      "brief": "Took up the old concrete slabs and cracked crazy paving. Laid a new Indian sandstone patio with a double row of granite setts as a border, built a low curved retaining wall in reclaimed brick and put in two steps down to the lawn. Planted up the new bed with lavender and box balls. Two weeks on site.",
+      "media": [
+        {
+          "id": "m1_before",
+          "stage": "before",
+          "qualityNotes": null,
+          "privacyCleared": false
+        },
+        {
+          "id": "m1_after1",
+          "stage": "after",
+          "qualityNotes": null,
+          "privacyCleared": false
+        },
+        {
+          "id": "m1_after2",
+          "stage": "after",
+          "qualityNotes": null,
+          "privacyCleared": false
+        }
+      ],
+      "testimonial": {
+        "status": "responded",
+        "rating": 5,
+        "quote": "The team were careful with everything and the patio is beautifully finished. It feels like a new room.",
+        "consentPhotos": true,
+        "consentArea": true,
+        "consentFirstName": true,
+        "consentQuote": true,
+        "withdrawnAt": null
+      },
+      "expect": {
+        "public": true,
+        "terms": [
+          "Indian sandstone",
+          "granite setts",
+          "reclaimed brick",
+          "retaining wall",
+          "steps",
+          "lavender",
+          "box balls"
+        ],
+        "excludedMedia": [],
+        "thin": false
+      }
+    },
+    {
+      "id": "pond-wimbledon-no-response",
+      "scenario": "homeowner has not responded yet (no testimonial, no consent flags)",
+      "service": "full_design",
+      "postcode": "SW19 5AB",
+      "area": "Wimbledon",
+      "customer": {
+        "firstName": "Harriet",
+        "lastName": "Cole"
+      },
+      "brief": "Overgrown back garden, knee-high grass, old pergola and junk everywhere. Cleared it all, laid a self-binding gravel terrace with a circular brick-edged pond and solar fountain, new lawn at the back, cleaned up the borders and kept the mature trees. About three weeks.",
+      "media": [
+        {
+          "id": "m2_before",
+          "stage": "before",
+          "qualityNotes": null,
+          "privacyCleared": false
+        },
+        {
+          "id": "m2_after",
+          "stage": "after",
+          "qualityNotes": null,
+          "privacyCleared": false
+        }
+      ],
+      "testimonial": null,
+      "expect": {
+        "public": true,
+        "terms": [
+          "self-binding gravel",
+          "pond",
+          "solar fountain",
+          "lawn",
+          "mature trees"
+        ],
+        "excludedMedia": [],
+        "thin": false
+      }
+    },
+    {
+      "id": "fencing-clapham-photos-refused",
+      "scenario": "homeowner refused photo consent: no public assets at all",
+      "service": "fencing",
+      "postcode": "SW4 9LE",
+      "area": "Clapham",
+      "customer": {
+        "firstName": "Olivia",
+        "lastName": "Grant"
+      },
+      "brief": "Replaced the rotten panels with slatted cedar screening on both sides, new concrete posts set in postcrete, and a matching cedar gate. Three days.",
+      "media": [
+        {
+          "id": "m3_after",
+          "stage": "after",
+          "qualityNotes": null,
+          "privacyCleared": false
+        }
+      ],
+      "testimonial": {
+        "status": "responded",
+        "rating": 5,
+        "quote": "Lovely job, very neat.",
+        "consentPhotos": false,
+        "consentArea": true,
+        "consentFirstName": true,
+        "consentQuote": true,
+        "withdrawnAt": null
+      },
+      "expect": {
+        "public": false,
+        "terms": [],
+        "excludedMedia": [],
+        "thin": false
+      }
+    },
+    {
+      "id": "planting-richmond-3-star",
+      "scenario": "3-star rating: testimonial must not be featured, no star claims",
+      "service": "planting",
+      "postcode": "TW10 6AA",
+      "area": "Richmond",
+      "customer": {
+        "firstName": "Tom",
+        "lastName": "Whitfield"
+      },
+      "brief": "Planted a row of five pleached hornbeam along the back fence for screening, new borders either side with ornamental grasses, salvias and alliums, and a yew hedge along the side path. Mulched everything with bark. Four days.",
+      "media": [
+        {
+          "id": "m4_before",
+          "stage": "before",
+          "qualityNotes": null,
+          "privacyCleared": false
+        },
+        {
+          "id": "m4_after",
+          "stage": "after",
+          "qualityNotes": null,
+          "privacyCleared": false
+        }
+      ],
+      "testimonial": {
+        "status": "responded",
+        "rating": 3,
+        "quote": "Planting looks good but the job ran a day over.",
+        "consentPhotos": true,
+        "consentArea": true,
+        "consentFirstName": true,
+        "consentQuote": true,
+        "withdrawnAt": null
+      },
+      "expect": {
+        "public": true,
+        "terms": [
+          "pleached hornbeam",
+          "ornamental grasses",
+          "salvias",
+          "alliums",
+          "yew",
+          "borders"
+        ],
+        "excludedMedia": [],
+        "thin": false
+      }
+    },
+    {
+      "id": "garden-room-balham-area-only",
+      "scenario": "photos + area consented, first name NOT consented",
+      "service": "structures",
+      "postcode": "SW12 8QA",
+      "area": "Balham",
+      "customer": {
+        "firstName": "Priya",
+        "lastName": "Raman"
+      },
+      "brief": "Built the base for a cedar-clad garden room, laid porcelain stepping stones through a new lawn from the patio, and planted the side borders with ferns and Japanese maple. Two and a half weeks.",
+      "media": [
+        {
+          "id": "m5_after1",
+          "stage": "after",
+          "qualityNotes": null,
+          "privacyCleared": false
+        },
+        {
+          "id": "m5_progress",
+          "stage": "progress",
+          "qualityNotes": null,
+          "privacyCleared": false
+        }
+      ],
+      "testimonial": {
+        "status": "responded",
+        "rating": 5,
+        "quote": "We work from the garden room every day now and the stepping stones are perfect.",
+        "consentPhotos": true,
+        "consentArea": true,
+        "consentFirstName": false,
+        "consentQuote": true,
+        "withdrawnAt": null
+      },
+      "expect": {
+        "public": true,
+        "terms": [
+          "garden room",
+          "porcelain",
+          "stepping stones",
+          "lawn",
+          "ferns",
+          "Japanese maple"
+        ],
+        "excludedMedia": [],
+        "thin": false
+      }
+    },
+    {
+      "id": "porcelain-barnes-no-area",
+      "scenario": "photos + first name consented, area NOT consented",
+      "service": "patio_paving",
+      "postcode": "SW13 9HN",
+      "area": "Barnes",
+      "customer": {
+        "firstName": "Daniel",
+        "lastName": "Okafor"
+      },
+      "brief": "Dated decking removed. Laid a large-format grey porcelain terrace with a slot drain at the doors, built two raised beds in rendered blockwork with oak sleeper caps, and fitted low-voltage outdoor lighting along the steps. About two weeks.",
+      "media": [
+        {
+          "id": "m6_before",
+          "stage": "before",
+          "qualityNotes": null,
+          "privacyCleared": false
+        },
+        {
+          "id": "m6_after",
+          "stage": "after",
+          "qualityNotes": null,
+          "privacyCleared": false
+        }
+      ],
+      "testimonial": {
+        "status": "responded",
+        "rating": 4,
+        "quote": "Really happy with the terrace, and the lighting makes it usable in the evenings.",
+        "consentPhotos": true,
+        "consentArea": false,
+        "consentFirstName": true,
+        "consentQuote": true,
+        "withdrawnAt": null
+      },
+      "expect": {
+        "public": true,
+        "terms": [
+          "porcelain",
+          "terrace",
+          "raised beds",
+          "oak",
+          "lighting",
+          "steps"
+        ],
+        "excludedMedia": [],
+        "thin": false
+      }
+    },
+    {
+      "id": "terrace-putney-quote-not-consented",
+      "scenario": "photos, area and name consented, quote NOT consented: photos yes, no quote/rating/stars anywhere",
+      "service": "patio_paving",
+      "postcode": "SW15 3DX",
+      "area": "Putney",
+      "customer": {
+        "firstName": "Alice",
+        "lastName": "Hargreaves"
+      },
+      "brief": "Took up the old patio and laid a York stone terrace with a brick edging, rebuilt the low garden wall in reclaimed brick and planted the new beds with lavender and hydrangeas. Ten days.",
+      "media": [
+        {
+          "id": "m7_before",
+          "stage": "before",
+          "qualityNotes": null,
+          "privacyCleared": false
+        },
+        {
+          "id": "m7_after",
+          "stage": "after",
+          "qualityNotes": null,
+          "privacyCleared": false
+        }
+      ],
+      "testimonial": {
+        "status": "responded",
+        "rating": 5,
+        "quote": "Private note for Adam: the crew were brilliant, thank you all so much.",
+        "consentPhotos": true,
+        "consentArea": true,
+        "consentFirstName": true,
+        "consentQuote": false,
+        "withdrawnAt": null
+      },
+      "expect": {
+        "public": true,
+        "terms": [
+          "York stone",
+          "terrace",
+          "reclaimed brick",
+          "lavender",
+          "hydrangeas"
+        ],
+        "excludedMedia": [],
+        "thin": false
+      }
+    },
+    {
+      "id": "lawn-wandsworth-withdrawn",
+      "scenario": "homeowner gave full consent, then withdrew it: nothing public at all",
+      "service": "lawn_turf",
+      "postcode": "SW18 2PT",
+      "area": "Wandsworth",
+      "customer": {
+        "firstName": "Ben",
+        "lastName": "Moreau"
+      },
+      "brief": "Stripped the old lawn, levelled and laid new turf with a steel edging to the borders. Three days.",
+      "media": [
+        {
+          "id": "m8_after",
+          "stage": "after",
+          "qualityNotes": null,
+          "privacyCleared": false
+        }
+      ],
+      "testimonial": {
+        "status": "responded",
+        "rating": 5,
+        "quote": "Perfect lawn, lovely team.",
+        "consentPhotos": true,
+        "consentArea": true,
+        "consentFirstName": true,
+        "consentQuote": true,
+        "withdrawnAt": "2026-09-10T09:00:00Z"
+      },
+      "expect": {
+        "public": false,
+        "terms": [],
+        "excludedMedia": [],
+        "thin": false
+      }
+    },
+    {
+      "id": "pergola-clapham-flagged-photo",
+      "scenario": "one after photo flagged 'needs blur' (house number) and not cleared: it must not appear anywhere",
+      "service": "structures",
+      "postcode": "SW4 0HY",
+      "area": "Clapham",
+      "customer": {
+        "firstName": "Hannah",
+        "lastName": "Lister"
+      },
+      "brief": "Built an oak pergola over the new sandstone patio, planted star jasmine and wisteria to climb it, and added raised beds in railway sleepers. About two weeks.",
+      "media": [
+        {
+          "id": "m9_before",
+          "stage": "before",
+          "qualityNotes": null,
+          "privacyCleared": false
+        },
+        {
+          "id": "m9_after_front",
+          "stage": "after",
+          "qualityNotes": "needs blur: house number visible",
+          "privacyCleared": false
+        },
+        {
+          "id": "m9_after_back",
+          "stage": "after",
+          "qualityNotes": null,
+          "privacyCleared": false
+        },
+        {
+          "id": "m9_after_cleared",
+          "stage": "after",
+          "qualityNotes": "needs blur: people visible",
+          "privacyCleared": true
+        }
+      ],
+      "testimonial": {
+        "status": "responded",
+        "rating": 5,
+        "quote": "The pergola is exactly what we wanted.",
+        "consentPhotos": true,
+        "consentArea": true,
+        "consentFirstName": true,
+        "consentQuote": true,
+        "withdrawnAt": null
+      },
+      "expect": {
+        "public": true,
+        "terms": [
+          "oak pergola",
+          "sandstone",
+          "star jasmine",
+          "wisteria",
+          "railway sleepers"
+        ],
+        "excludedMedia": [
+          "m9_after_front"
+        ],
+        "thin": false
+      }
+    },
+    {
+      "id": "garden-design-wimbledon-thin",
+      "scenario": "no crew brief or voice note (thin input): short honest copy and a thin-input flag",
+      "service": "full_design",
+      "postcode": "SW19 7NB",
+      "area": "Wimbledon",
+      "customer": {
+        "firstName": "Marcus",
+        "lastName": "Bell"
+      },
+      "brief": "",
+      "media": [
+        {
+          "id": "m10_before",
+          "stage": "before",
+          "qualityNotes": null,
+          "privacyCleared": false
+        },
+        {
+          "id": "m10_after",
+          "stage": "after",
+          "qualityNotes": null,
+          "privacyCleared": false
+        }
+      ],
+      "testimonial": null,
+      "expect": {
+        "public": true,
+        "terms": [],
+        "excludedMedia": [],
+        "thin": true
+      }
+    }
+  ]
+}
